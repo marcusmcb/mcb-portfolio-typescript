@@ -54,6 +54,7 @@
     max-height: none;
     padding: 0px;
     position: unset;
+    
   }
 
   .item {
@@ -80,7 +81,7 @@
     max-width: none;
     max-height: none;
     padding: 0px;
-    display: block;
+    
     position: unset;
   }
 

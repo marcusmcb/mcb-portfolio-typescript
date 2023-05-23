@@ -1,6 +1,8 @@
 .main {
   margin-top: 0px;
+  white-space: pre-line;
 }
+
 
 /* Tablet Size  */
 @media (min-width: 768px) {

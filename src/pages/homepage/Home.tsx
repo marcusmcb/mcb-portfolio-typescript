@@ -8,7 +8,7 @@ import SectionThree from "./SectionThree";
 
 const Home = (): JSX.Element => {
   useEffect(() => {
-    document.title = "Minimalist Portfolio | Home";
+    document.title = "MCB Portfolio | Home";
     window.scrollTo(0, 0);
   }, []);
 

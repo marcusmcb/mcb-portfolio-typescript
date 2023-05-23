@@ -4,7 +4,7 @@ import styles from "./styles/Project.module.css";
 
 interface ProjectProps {
   title: string;
-  description: string;
+  description: any;
   screenshots: string[];
   param: string;
 }

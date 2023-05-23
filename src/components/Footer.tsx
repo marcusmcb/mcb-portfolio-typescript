@@ -20,7 +20,7 @@ const Footer = (): JSX.Element => {
             PORTFOLIO
           </Link>
           <Link to="/contact" className={styles.item}>
-            CONTACT ME
+            CONTACT
           </Link>
         </nav>
         <div className={styles.iconContainer}>

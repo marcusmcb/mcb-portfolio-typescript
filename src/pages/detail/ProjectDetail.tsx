@@ -6,7 +6,7 @@ import styles from "./styles/ProjectDetail.module.css";
 interface ProjectDetailProps {
   heroImages: string[];
   title: string;
-  description: string;
+  description: any;
   keywords: string[];
   technologies: string[];
   background: string;

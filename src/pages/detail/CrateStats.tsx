@@ -1,12 +1,12 @@
 import ProjectDetail from "./ProjectDetail";
 
-import heroMobile from "../../images/detail/mobile/image-manage-hero@2x.jpg";
-import heroTablet from "../../images/detail/tablet/image-manage-hero@2x.jpg";
-import heroDesktop from "../../images/detail/desktop/image-manage-hero@2x.jpg";
+import heroMobile from "../../images/portfolio/crate_stats_01.png";
+import heroTablet from "../../images/portfolio/crate_stats_horiz.png";
+import heroDesktop from "../../images/portfolio/crate_stats_horiz.png";
 
-import previewMobile1 from "../../images/detail/mobile/image-manage-preview-1@2x.jpg";
-import previewTablet1 from "../../images/detail/tablet/image-manage-preview-1@2x.jpg";
-import previewDesktop1 from "../../images/detail/desktop/image-manage-preview-1@2x.jpg";
+import previewMobile1 from "../../images/portfolio/crate_stats_01.png";
+import previewTablet1 from "../../images/portfolio/crate_stats_horiz.png";
+import previewDesktop1 from "../../images/portfolio/crate_stats_horiz.png";
 
 import previewMobile2 from "../../images/detail/mobile/image-manage-preview-2@2x.jpg";
 import previewTablet2 from "../../images/detail/tablet/image-manage-preview-2@2x.jpg";
@@ -17,8 +17,17 @@ const CrateStats = (): JSX.Element => {
     <ProjectDetail
       heroImages={[heroMobile, heroTablet, heroDesktop]}
       title="CrateStats"
-      description="
-								CrateStats is a data analytics platform currently in development.  The goal is to give the DJ community a dedicated resource for playlist analysis and performance insight.  Built with React, Material UI, Node, and GCP."
+      description={
+        <>
+          CrateStats is a data analytics platform currently in development.
+          The goal of this project is to give the DJ community a dedicated
+          resource for playlist analysis and performance insight across
+          multiple DVS platforms. <br />
+          <br />
+          Support for Serato, Serato Live Playlists, Traktor, and Rekordbox
+          is currently included. Built with React, Material UI, Node, and GCP.
+        </>
+      }
       keywords={["Full Stack Development", "Data Analytcs"]}
       technologies={["React", "Node", "Material UI", "Express", "Firebase"]}
       background="

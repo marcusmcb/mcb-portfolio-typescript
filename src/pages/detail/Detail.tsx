@@ -13,7 +13,7 @@ const Detail = (): JSX.Element => {
   let { id } = useParams();
 
   useEffect(() => {
-    document.title = "Minimalist Portfolio | Project Details";
+    document.title = "MCB Portfolio | Project Details";
   }, []);
 
   return (

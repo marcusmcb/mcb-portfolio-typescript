@@ -4,7 +4,7 @@ import GetInTouch from "./GetInTouch";
 
 const Contact = (): JSX.Element => {
   useEffect(() => {
-    document.title = "Minimalist Portfolio | Contact Me";
+    document.title = "MCB Portfolio | Contact";
   }, []);
   return (
     <main>
