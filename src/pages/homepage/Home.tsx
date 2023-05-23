@@ -6,7 +6,7 @@ import SectionOne from "./SectionOne";
 import SectionTwo from "./SectionTwo";
 import SectionThree from "./SectionThree";
 
-export default function Home(): JSX.Element {
+const Home = (): JSX.Element => {
   useEffect(() => {
     document.title = "Minimalist Portfolio | Home";
     window.scrollTo(0, 0);
@@ -20,3 +20,5 @@ export default function Home(): JSX.Element {
     </main>
   );
 }
+
+export default Home

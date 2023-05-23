@@ -5,7 +5,7 @@ import twitter from "../../images/icons/twitter.svg";
 import linkedin from "../../images/icons/linkedin.svg";
 import { useMediaQuery } from "react-responsive";
 
-export default function GetInTouch(): JSX.Element {
+const GetInTouch = (): JSX.Element => {
   const isDesktop = useMediaQuery({
     query: "(min-width: 1440px)",
   });
@@ -47,3 +47,5 @@ export default function GetInTouch(): JSX.Element {
     </section>
   );
 }
+
+export default GetInTouch

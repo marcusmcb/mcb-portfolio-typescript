@@ -1,11 +1,11 @@
 import styles from "./styles/Footer.module.css";
-import logo from "../images/logo.svg";
+import logo from "../images/mcb-logo.jpg";
 import { Link } from "react-router-dom";
 import github from "../images/icons/github.svg";
 import twitter from "../images/icons/twitter.svg";
 import linkedin from "../images/icons/linkedin.svg";
 
-export default function Footer(): JSX.Element {
+const Footer = (): JSX.Element => {
   return (
     <footer>
       <div className={`container ${styles.container}`}>
@@ -24,19 +24,39 @@ export default function Footer(): JSX.Element {
           </Link>
         </nav>
         <div className={styles.iconContainer}>
-          <a href="/#" className={styles.iconButton} aria-label="github">
+          <a
+            href="https://github.com/marcusmcb"
+            target="_blank"
+            rel="noreferrer"
+            className={styles.iconButton}
+            aria-label="github"
+          >
             <img src={github} alt="github" className={styles.icon} />
           </a>
 
-          <a href="/#" className={styles.iconButton} aria-label="twitter">
+          <a
+            href="https://www.twitter.com/djmarcusmcb"
+            target="_blank"
+            rel="noreferrer"
+            className={styles.iconButton}
+            aria-label="twitter"
+          >
             <img src={twitter} alt="twitter" className={styles.icon} />
           </a>
 
-          <a href="/#" className={styles.iconButton} aria-label="linkedin">
+          <a
+            href="https://www.linkedin.com/in/marcusmcbride-developer/"
+            target="_blank"
+            rel="noreferrer"
+            className={styles.iconButton}
+            aria-label="linkedin"
+          >
             <img src={linkedin} alt="linkedin" className={styles.icon} />
           </a>
         </div>
       </div>
     </footer>
   );
-}
+};
+
+export default Footer;

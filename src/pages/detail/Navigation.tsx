@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import styles from "./styles/Navigation.module.css";
-
 import leftArrow from "../../images/icons/arrow-left.svg";
 import rightArrow from "../../images/icons/arrow-right.svg";
 
@@ -9,7 +8,7 @@ interface NavigationProps {
   previous: string;
 }
 
-export default function Navigation({ next, previous }: NavigationProps): JSX.Element {
+const Navigation = ({ next, previous }: NavigationProps): JSX.Element => {
   return (
     <section className={styles.section}>
       <div className={`container ${styles.container}`}>
@@ -19,10 +18,16 @@ export default function Navigation({ next, previous }: NavigationProps): JSX.Ele
           </div>
 
           <div>
-            <h3 className="h3" style={{ textAlign: "start", textTransform: "capitalize" }}>
+            <h3
+              className="h3"
+              style={{ textAlign: "start", textTransform: "capitalize" }}
+            >
               {previous}
             </h3>
-            <p style={{ textAlign: "start", opacity: "0.5" }} className="body-1">
+            <p
+              style={{ textAlign: "start", opacity: "0.5" }}
+              className="body-1"
+            >
               Previous Project
             </p>
           </div>
@@ -34,7 +39,10 @@ export default function Navigation({ next, previous }: NavigationProps): JSX.Ele
           </div>
 
           <div>
-            <h3 className="h3" style={{ textAlign: "end", textTransform: "capitalize" }}>
+            <h3
+              className="h3"
+              style={{ textAlign: "end", textTransform: "capitalize" }}
+            >
               {next}
             </h3>
             <p style={{ textAlign: "end", opacity: "0.5" }} className="body-1">
@@ -45,4 +53,6 @@ export default function Navigation({ next, previous }: NavigationProps): JSX.Ele
       </div>
     </section>
   );
-}
+};
+
+export default Navigation;

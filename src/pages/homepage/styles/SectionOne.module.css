@@ -18,6 +18,30 @@
   margin-bottom: 32px;
 }
 
+.fadeImage {
+  opacity: 0.7;
+}
+
+.darkOverlay {
+  position: relative;
+}
+
+.darkOverlay::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Here 0.5 is the opacity of black color. Adjust as needed */
+}
+
 /* Tablet Size  */
 @media (min-width: 768px) {
   .section1 {
@@ -34,7 +58,8 @@
   }
 
   .boxContainer {
-    background-color: var(--main-bg-color);
+    /* background-color: var(--main-bg-color); */
+    background-color: transparent;
 
     position: absolute;
     bottom: -1px;
@@ -43,6 +68,8 @@
     width: 66.92708%;
     min-height: 278px;
     height: fit-content;
+    margin-left: 15px;
+    margin-bottom: 15px;
 
     padding: 56px 56px 0px 0px;
 
@@ -53,6 +80,7 @@
 
   .text {
     margin-bottom: 48px;
+    color: white;
   }
 }
 
@@ -92,5 +120,6 @@
 
   .text {
     margin-bottom: 53px;
+    color: white;
   }
 }

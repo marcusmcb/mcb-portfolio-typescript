@@ -12,7 +12,7 @@ import previewMobile2 from "../../images/detail/mobile/image-fylo-preview-2@2x.j
 import previewTablet2 from "../../images/detail/tablet/image-fylo-preview-2@2x.jpg";
 import previewDesktop2 from "../../images/detail/desktop/image-fylo-preview-2@2x.jpg";
 
-export default function Fylo(): JSX.Element {
+const Fylo = (): JSX.Element => {
   return (
     <ProjectDetail
       heroImages={[heroMobile, heroTablet, heroDesktop]}
@@ -30,8 +30,10 @@ export default function Fylo(): JSX.Element {
         I’ve learned something new with each project, helping me to improve and adapt my style."
       preview1={[previewMobile1, previewTablet1, previewDesktop1]}
       preview2={[previewMobile2, previewTablet2, previewDesktop2]}
-      next="manage"
+      next="cratestats"
       previous="insure"
     />
   );
 }
+
+export default Fylo

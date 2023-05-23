@@ -27,14 +27,11 @@ export default function Portfolio(): JSX.Element {
   return (
     <main className={styles.main}>
       <Project.Right
-        title="Manage"
+        title="CrateStats"
         description="
-      This project required me to build a fully responsive landing page to the designs provided. 
-      I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity,
-      such as the testimonial slider.
-      "
+        CrateStats is a data analytics platform currently in development.  The goal is to give the DJ community a dedicated resource for playlist analysis and performance insight across multiple DVS platforms.  Support for Serato, Serato Live Playlists, Traktor, and Rekordbox included. Built with React, Material UI, Node, and GCP."
         screenshots={[manageMobil, manageTablet, manageDesktop]}
-        param="manage"
+        param="cratestats"
       />
       <Project.Left
         title="Bookmark"

@@ -1,7 +1,7 @@
 import { SyntheticEvent } from "react";
 import styles from "./styles/ContactMe.module.css";
 
-export default function ContactMe(): JSX.Element {
+const ContactMe = (): JSX.Element => {
   const handleFocus = (e: SyntheticEvent) => {
     const target = e.target as typeof e.target & {
       name: string;
@@ -127,3 +127,5 @@ export default function ContactMe(): JSX.Element {
     </section>
   );
 }
+
+export default ContactMe

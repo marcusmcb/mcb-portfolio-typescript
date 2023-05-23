@@ -3,12 +3,13 @@ import styles from "./styles/Detail.module.css";
 import { useEffect } from "react";
 import { useParams } from "react-router";
 import SectionThree from "../homepage/SectionThree";
-import Manage from "./Manage";
+import CrateStats from "./CrateStats";
 import Bookmark from "./Bookmark";
 import Insure from "./Insure";
 import Fylo from "./Fylo";
+import NpChatBot from "./NpChatbot"
 
-export default function Detail(): JSX.Element {
+const Detail = (): JSX.Element => {
   let { id } = useParams();
 
   useEffect(() => {
@@ -17,11 +18,14 @@ export default function Detail(): JSX.Element {
 
   return (
     <main className={styles.main}>
-      {id === "manage" && <Manage />}
+      {id === "cratestats" && <CrateStats />}
       {id === "bookmark" && <Bookmark />}
       {id === "insure" && <Insure />}
       {id === "fylo" && <Fylo />}
+      {id === "npchatbot" && <NpChatBot />}
       <SectionThree />
     </main>
   );
 }
+
+export default Detail

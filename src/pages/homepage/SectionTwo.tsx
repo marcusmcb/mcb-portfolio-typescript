@@ -1,11 +1,11 @@
 import styles from "./styles/SectionTwo.module.css";
 import SecondaryButton from "../../components/SecondaryButton";
 
-import mobileProfile from "../../images/homepage/mobile/image-homepage-profile@2x.jpg";
-import tabletProfile from "../../images/homepage/tablet/image-homepage-profile@2x.jpg";
-import desktopProfile from "../../images/homepage/desktop/image-homepage-profile@2x.jpg";
+import mobileProfile from "../../images/homepage/desktop/marcus.jpg";
+import tabletProfile from "../../images/homepage/desktop/marcus.jpg";
+import desktopProfile from "../../images/homepage/desktop/marcus.jpg";
 
-export default function SectionTwo(): JSX.Element {
+const SectionTwo = (): JSX.Element => {
   return (
     <section className={styles.section} id="about-me">
       <div className={`container ${styles.container}`}>
@@ -16,7 +16,7 @@ export default function SectionTwo(): JSX.Element {
         </picture>
         <div className={styles.boxContainer}>
           <h2 className="h2" style={{ marginBottom: "28px" }}>
-            About Me
+            Hi, I'm Marcus.
           </h2>
           <p
             className="body-1"
@@ -27,12 +27,7 @@ export default function SectionTwo(): JSX.Element {
               marginBottom: "24px",
             }}
           >
-            I’m a junior front-end developer looking for a new role in an exciting company. I focus
-            on writing accessible HTML, using modern CSS practices and writing clean JavaScript.
-            When writing JavaScript code, I mostly use React, but I can adapt to whatever tools are
-            required. I’m based in London, UK, but I’m happy working remotely and have experience in
-            remote teams. When I’m not coding, you’ll find me outdoors. I love being out in nature
-            whether that’s going for a walk, run or cycling. I’d love you to check out my work.
+            A former commercial broadcaster and live event professional, I've been writing code full time since 2018.  I'm a full-stack developer, task-wrangler and creative problem-solver. I'm a big fan of pulling data out of the ether and presenting it in system-efficient and user-effective ways.
           </p>
           <SecondaryButton text="go to portfolio" href="/portfolio" />
         </div>
@@ -40,3 +35,5 @@ export default function SectionTwo(): JSX.Element {
     </section>
   );
 }
+
+export default SectionTwo

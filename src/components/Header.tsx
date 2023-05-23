@@ -1,13 +1,10 @@
 import styles from "./styles/Header.module.css";
-import logo from "../images/logo.svg";
 import hamburger from "../images/icons/hamburger.svg";
 import close from "../images/icons/close.svg";
-
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import { useMediaQuery } from "react-responsive";
 
-export default function Header(): JSX.Element {
+const Header = (): JSX.Element => {
   const [clicked, setClicked] = useState(false);
   const isMobile = useMediaQuery({ query: "(max-width: 767px)" });
 
@@ -17,26 +14,26 @@ export default function Header(): JSX.Element {
     });
   };
 
+  let currentYear = new Date().getFullYear();
+
   const linkClick = () => {
     setClicked(false);
   };
+
   return (
     <header className={styles.header}>
-      <div className={`container ${styles.headerContainer}`}>
-        <div style={{ cursor: "pointer" }}>
-          <img src={logo} alt="" />
-        </div>
+      <div>
         {(!isMobile || clicked) && (
           <nav id="topnav" className={styles.nav}>
-            <Link to="/" className={styles.item} onClick={linkClick}>
-              HOME
-            </Link>
-            <Link to="/portfolio" className={styles.item} onClick={linkClick}>
-              PORTFOLIO
-            </Link>
-            <Link to="/contact" className={styles.item} onClick={linkClick}>
-              CONTACT ME
-            </Link>
+            <a
+              href="http://www.djmarcusmcbride.com"
+              className={styles.item}
+              onClick={linkClick}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {currentYear} &#169; MCB
+            </a>
           </nav>
         )}
         {isMobile && (
@@ -53,3 +50,5 @@ export default function Header(): JSX.Element {
     </header>
   );
 }
+
+export default Header

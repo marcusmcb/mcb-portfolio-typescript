@@ -1,28 +1,20 @@
 /* Mobile Size  */
 .header {
-  margin-bottom: 40px;
-}
-
-.headerContainer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  color: white;
+  height: 50px;
+  background-color: black;
 }
 
 .nav {
-  background-color: var(--secondary-bg-color);
   width: 75%;
   max-width: 223px;
   max-height: 186px;
   padding: 40px 0px;
-
   display: flex;
   flex-direction: column;
-
   position: absolute;
   top: calc(100% + 24px);
   right: calc(0% + var(--mobile-hor-padding));
-
   z-index: 1;
 }
 
@@ -31,15 +23,13 @@
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
-  line-height: 14px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   text-align: center;
   letter-spacing: 2px;
   text-transform: uppercase;
-
   color: #ffffff;
-
   text-decoration: none;
-  margin-bottom: 32px;
 }
 
 .item:hover {
@@ -59,19 +49,14 @@
   }
 
   .nav {
-    background-color: var(--main-bg-color);
     width: auto;
     max-width: none;
     max-height: none;
     padding: 0px;
-
-    display: block;
-
     position: unset;
   }
 
   .item {
-    color: var(--text-color-normal);
     margin-bottom: 0px;
   }
 
@@ -91,19 +76,15 @@
   }
 
   .nav {
-    background-color: var(--main-bg-color);
     width: auto;
     max-width: none;
     max-height: none;
     padding: 0px;
-
     display: block;
-
     position: unset;
   }
 
   .item {
-    color: var(--text-color-normal);
     margin-bottom: 0px;
   }
 

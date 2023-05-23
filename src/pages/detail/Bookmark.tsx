@@ -12,7 +12,7 @@ import previewMobile2 from "../../images/detail/mobile/image-bookmark-preview-2@
 import previewTablet2 from "../../images/detail/tablet/image-bookmark-preview-2@2x.jpg";
 import previewDesktop2 from "../../images/detail/desktop/image-bookmark-preview-2@2x.jpg";
 
-export default function Bookmark(): JSX.Element {
+const Bookmark = (): JSX.Element => {
   return (
     <ProjectDetail
       heroImages={[heroMobile, heroTablet, heroDesktop]}
@@ -32,7 +32,9 @@ export default function Bookmark(): JSX.Element {
       preview1={[previewMobile1, previewTablet1, previewDesktop1]}
       preview2={[previewMobile2, previewTablet2, previewDesktop2]}
       next="insure"
-      previous="manage"
+      previous="cratestats"
     />
   );
 }
+
+export default Bookmark

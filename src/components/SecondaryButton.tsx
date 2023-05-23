@@ -6,10 +6,12 @@ interface SecondaryButtonProps {
   href: string;
 }
 
-export default function SecondaryButton({ text, href }: SecondaryButtonProps): JSX.Element {
+const SecondaryButton = ({ text, href }: SecondaryButtonProps): JSX.Element => {
   return (
     <Link className={styles.container} to={href}>
       <button className={styles.button}>{text}</button>
     </Link>
   );
 }
+
+export default SecondaryButton

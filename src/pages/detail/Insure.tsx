@@ -12,7 +12,7 @@ import previewMobile2 from "../../images/detail/mobile/image-insure-preview-2@2x
 import previewTablet2 from "../../images/detail/tablet/image-insure-preview-2@2x.jpg";
 import previewDesktop2 from "../../images/detail/desktop/image-insure-preview-2@2x.jpg";
 
-export default function Insure(): JSX.Element {
+const Insure = (): JSX.Element => {
   return (
     <ProjectDetail
       heroImages={[heroMobile, heroTablet, heroDesktop]}
@@ -35,3 +35,5 @@ export default function Insure(): JSX.Element {
     />
   );
 }
+
+export default Insure

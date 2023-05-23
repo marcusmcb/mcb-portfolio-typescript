@@ -16,7 +16,7 @@ interface ProjectDetailProps {
   previous: string;
 }
 
-export default function ProjectDetail({
+const ProjectDetail = ({
   heroImages,
   title,
   description,
@@ -27,7 +27,7 @@ export default function ProjectDetail({
   preview2,
   next,
   previous,
-}: ProjectDetailProps): JSX.Element {
+}: ProjectDetailProps): JSX.Element => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -106,3 +106,5 @@ export default function ProjectDetail({
     </>
   );
 }
+
+export default ProjectDetail
