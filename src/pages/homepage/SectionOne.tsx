@@ -27,7 +27,7 @@ const SectionOne = (): JSX.Element => {
 						<img
 							src={mobileImage2x}
 							alt='Project Screenshot'
-							style={{ width: '100%' }}
+							style={{ width: '100%', maxHeight: '300px' }}							
 						/>
 					</picture>
 				</div>

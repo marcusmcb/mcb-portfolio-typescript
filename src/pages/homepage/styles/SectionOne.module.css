@@ -1,18 +1,15 @@
 .section1 {
-  margin-bottom: 96px;
+  margin-bottom: 70px;  
 }
 
 .picture {
-  margin-bottom: 24px;
+  margin-bottom: 24px;  
 }
 
 .image {
   width: 100%;
-  height: 271px;
+  height: 271px;  
 }
-
-/* .boxContainer {
-  } */
 
 .text {
   margin-bottom: 32px;
@@ -24,9 +21,11 @@
 
 .darkOverlay {
   position: relative;
+  
 }
 
 .darkOverlay::after {
+  
   content: "";
   display: block;
   position: absolute;
@@ -49,7 +48,7 @@
 /* Tablet Size  */
 @media (min-width: 768px) {
   .section1 {
-    margin-bottom: 96px;
+    margin-bottom: 70px;
   }
 
   .picture {
@@ -98,7 +97,7 @@
 /* Desktop Size  */
 @media (min-width: 1440px) {
   .section1 {
-    margin-bottom: 150px;    
+    margin-bottom: 70px;    
   }
 
   .picture {
@@ -110,10 +109,9 @@
   } 
 
   .boxContainer {
-    background-color: transparent;
+    /* background-color: transparent;
     position: absolute;
-    bottom: -1px;
-    /* -1px fixes fraction of pixel that appears on percentage */
+    
     left: calc(var(--desktop-hor-padding) - 1px);
     width: 30.90277%;
     min-height: 357px;
@@ -121,7 +119,10 @@
     padding: 56px 55px 0px 0px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between; */
+    position: absolute;
+    left: calc(var(--desktop-hor-padding) - 1px);
+    
   }
 
   .text {
