@@ -47,6 +47,7 @@
 .bTitle {
   text-align: start;
   margin-bottom: 28px;
+  font-weight: 600;
 }
 
 .background {
@@ -59,6 +60,7 @@
 .staticTitle {
   margin-bottom: 40px;
   text-align: start;
+  font-weight: 600;
 }
 
 /* Tablet Size  */
@@ -102,6 +104,7 @@
   .bTitle {
     text-align: start;
     margin-bottom: 28px;
+    font-weight: 600;
   }
 
   .background {
@@ -113,6 +116,7 @@
 
   .staticTitle {
     margin-bottom: 40px;
+    font-weight: 600;
   }
 }
 
@@ -164,6 +168,7 @@
   .bTitle {
     text-align: start;
     margin-bottom: 28px;
+    font-weight: 600;
   }
 
   .background {
@@ -175,5 +180,6 @@
 
   .staticTitle {
     margin-bottom: 28px;
+    font-weight: 600;
   }
 }

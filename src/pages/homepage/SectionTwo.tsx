@@ -34,7 +34,7 @@ const SectionTwo = (): JSX.Element => {
 					>
 						I'm a full-stack developer, task-wrangler, and creative
 						problem-solver. I'm a big fan of pulling data out of the ether and
-						presenting it in system-efficient and user-effective ways.  
+						presenting it in system-efficient and user-effective ways.
 						Experienced in working with agile teams (on-site & remote) and
 						committed to finding durable solutions to fit the needs of the
 						challenge.

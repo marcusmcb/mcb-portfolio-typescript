@@ -17,10 +17,16 @@ const NpChatBot = (): JSX.Element => {
     <ProjectDetail
       heroImages={[heroMobile, heroTablet, heroDesktop]}
       title="npChatBot"
-      description="npChatBot"
+      description={
+        <>
+        npChatbot description
+        </>
+      }
       keywords={["Live Streaming", "Web Scraping", "Data Analytics"]}
       technologies={["Node", "TMI.js", "Twitch", "Serato"]}
-      background="npChatbot background"
+      background={<>
+        npChatbot background
+      </>}
       preview1={[previewMobile1, previewTablet1, previewDesktop1]}
       preview2={[previewMobile2, previewTablet2, previewDesktop2]}
       next='cratestats'
