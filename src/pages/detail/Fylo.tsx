@@ -22,6 +22,7 @@ const Fylo = (): JSX.Element => {
         The only JavaScript this project required was to enable the toggling of the mobile navigation."
       keywords={["Interaction Design", "Front End Development"]}
       technologies={["HTML", "CSS"]}
+      link={['https://www.google.com']}
       background="
         This project was a front-end  challenge from Frontend Mentor. 
         It’s a platform that enables you to practice building websites to a design and project brief. 

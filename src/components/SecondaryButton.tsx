@@ -3,7 +3,7 @@ import styles from "./styles/SecondaryButton.module.css";
 
 interface SecondaryButtonProps {
   text: string;
-  href: string;
+  href: string;  
 }
 
 const SecondaryButton = ({ text, href }: SecondaryButtonProps): JSX.Element => {
@@ -12,6 +12,6 @@ const SecondaryButton = ({ text, href }: SecondaryButtonProps): JSX.Element => {
       <button className={styles.button}>{text}</button>
     </Link>
   );
-}
+};
 
-export default SecondaryButton
+export default SecondaryButton;

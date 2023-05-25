@@ -24,6 +24,7 @@ const Hue = (): JSX.Element => {
       }
       keywords={["Live Streaming", "Web Scraping", "Data Analytics"]}
       technologies={["Node", "TMI.js", "Twitch", "Serato"]}
+      link={['https://www.google.com']}
       background={<>
         Hue background
       </>}

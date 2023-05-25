@@ -23,6 +23,7 @@ const Bookmark = (): JSX.Element => {
 								such as the testimonial slider."
       keywords={["Interaction Design", "Front End Development"]}
       technologies={["HTML", "CSS", "JS"]}
+      link={["https://www.google.com"]}
       background="
 							This project was a front-end  challenge from Frontend Mentor. 
 							It’s a platform that enables you to practice building websites to a design and project brief. 
@@ -35,6 +36,6 @@ const Bookmark = (): JSX.Element => {
       previous="cratestats"
     />
   );
-}
+};
 
-export default Bookmark
+export default Bookmark;

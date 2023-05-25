@@ -24,6 +24,7 @@ const RemixArkive = (): JSX.Element => {
       }
       keywords={["Live Streaming", "Web Scraping", "Data Analytics"]}
       technologies={["Node", "TMI.js", "Twitch", "Serato"]}
+      link={['https://www.twitter.com/remixarkive']}
       background={<>
         RemixArkive background
       </>}
