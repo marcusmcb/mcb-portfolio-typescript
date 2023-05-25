@@ -35,38 +35,93 @@ export default function Portfolio(): JSX.Element {
 						resource for playlist analysis and performance insight across
 						multiple DVS platforms. <br />
 						<br />
-						Support for Serato, Serato Live Playlists, Traktor, and Rekordbox
-						is currently included. Built with React, Material UI, Node, and GCP.
+						Support for Serato, Serato Live Playlists, Traktor, and Rekordbox is
+						currently included. Built with React, Material UI, Node, and GCP.
 					</>
 				}
 				screenshots={[manageMobil, manageTablet, manageDesktop]}
 				param='cratestats'
 			/>
 			<Project.Left
-				title='Bookmark'
-				description='
-        This project required me to build a fully responsive landing page to the designs provided.
-        I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity,
-        such as the features section.'
+				title='npChatbot'
+				description={
+					<>
+						This chat-bot adds a set of command features to your Twitch streams
+						that allow viewers to interact with your Serato live playlist (via
+						web scrape). Features within the bot allow viewers to display the
+						current track playing, as well as any previous track, the total
+						number of tracks, along with a "vibe check" which returns a random
+						selection from the play history and when it was played.
+						<br />
+						<br />
+						Built with Node, TMI.js, Axios/Cheerio, and Electron.
+					</>
+				}
 				screenshots={[bookmarkMobil, bookmarkTablet, bookmarkDesktop]}
-				param='bookmark'
+				param='npchatbot'
 			/>
 			<Project.Right
-				title='Insure'
-				description='
-        This was a small project which mostly consisted of HTML and CSS. I built a fully-responsive landing page.
-        The only JavaScript this project required was to enable the toggling of the mobile navigation.
-      '
+				title='RemixArkive'
+				description={
+					<>
+						RemixArkive is an automated script that uses Twitter to tweet out
+						links to rare, unusual, or hard-to-find remixed versions of songs.
+						<br />
+						<br />
+						Built with Node, Heroku, and the Twitter API.
+					</>
+				}
 				screenshots={[insureMobil, insureTablet, insureDesktop]}
-				param='insure'
+				param='remixarkive'
 			/>
 			<Project.Left
-				title='Fylo'
+				title='Philips Hue Smart Lighting Control'
+				description={
+					<>
+						This is a chat-bot script that integrates with the Twitch platform
+						to offer viewers an array of chat commands to control any Hue smart
+						lighting devices that the streamer currently has connected. The script
+						requires at least one Hue fixture as well the accompanying Bridge
+						component and can be configured to run locally or online via proxy. 
+						<br />
+						<br />
+						Built with Node, TMI.js, and the Phillips-Hue API.
+					</>
+				}
+				screenshots={[fyloMobil, fyloTablet, fyloDesktop]}
+				param='hue'
+			/>
+			<Project.Right
+				title='JSP-1: Javascript Sample Player'
 				description='
         This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and built it so that it was fully-responsive.
          I took a mobile-first approach and used modern CSS like Flexbox and Grid for layout purposes.'
 				screenshots={[fyloMobil, fyloTablet, fyloDesktop]}
-				param='fylo'
+				param='jsp'
+			/>
+			<Project.Left
+				title='Twitch Chat Bot'
+				description='
+        This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and built it so that it was fully-responsive.
+         I took a mobile-first approach and used modern CSS like Flexbox and Grid for layout purposes.'
+				screenshots={[fyloMobil, fyloTablet, fyloDesktop]}
+				param='twitchchatbot'
+			/>
+			<Project.Right
+				title='Responsive Components'
+				description='
+        This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and built it so that it was fully-responsive.
+         I took a mobile-first approach and used modern CSS like Flexbox and Grid for layout purposes.'
+				screenshots={[fyloMobil, fyloTablet, fyloDesktop]}
+				param='responsive-components'
+			/>
+			<Project.Left
+				title='US Rental Pricing Analysis'
+				description='
+        This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and built it so that it was fully-responsive.
+         I took a mobile-first approach and used modern CSS like Flexbox and Grid for layout purposes.'
+				screenshots={[fyloMobil, fyloTablet, fyloDesktop]}
+				param='rental-analysis'
 			/>
 			<SectionThree />
 		</main>

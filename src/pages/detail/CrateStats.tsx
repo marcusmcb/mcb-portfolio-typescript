@@ -33,7 +33,8 @@ const CrateStats = (): JSX.Element => {
 			background={
 				<>
 					This project began as a side-project from another you'll find in my
-					portfolio, <span style={{ fontWeight: '600' }}>npChatBot</span>. <br />
+					portfolio, <span style={{ fontWeight: '600' }}>npChatBot</span>.{' '}
+					<br />
 					<br />
 					As I was capturing my own playlist data during live-streams to use
 					with chatbot commands, I realized that I could likely do the same with
@@ -45,14 +46,20 @@ const CrateStats = (): JSX.Element => {
 					<br />
 					Currently, the platform has support for export data from Serato,
 					Traktor, and Rekordbox, as well as real-time analytics for Serato via
-					the Live Playlists feature. When used with playlist history exported
 					from a DVS platform, CrateStats can provide an analysis of the music
 					played within that set, broken down in detail by category (tempo, key,
 					year, etc). <br />
 					<br />
 					Additionally, the CrateStats report can provide a general analysis of
 					the DJ's behavior during that particular set: how long they played
-					songs on average, the "age" of their playlist is (based on the range of years played), which deck the DJ favored during the set, and so on.
+					songs on average, the "age" of their playlist is (based on the range
+					of years played), which deck the DJ favored during the set, and so on.
+					<br />
+					<br />
+					Finally, when used in tandem with Serato's live playlist feature,
+					CrateStats can be used as a live analytics tool during DJ
+					performances, giving the user (and their audience) a condensed version
+					of the CrateStats report in real time.
 				</>
 			}
 			preview1={[previewMobile1, previewTablet1, previewDesktop1]}
