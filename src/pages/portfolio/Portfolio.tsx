@@ -11,17 +11,13 @@ import npchatbotMobile from '../../images/portfolio/npchatbot/npchatbot_preview.
 import npchatbotTablet from '../../images/portfolio/npchatbot/npchatbot_preview.png'
 import npchatbotDesktop from '../../images/portfolio/npchatbot/npchatbot_preview.png'
 
-import fyloMobil from '../../images/portfolio/mobile/image-portfolio-fylo@2x.jpg'
-import fyloTablet from '../../images/portfolio/tablet/image-portfolio-fylo@2x.jpg'
-import fyloDesktop from '../../images/portfolio/desktop/image-portfolio-fylo@2x.jpg'
-
 import hueMobile from '../../images/portfolio/hue/hue_preview.png'
 import hueTablet from '../../images/portfolio/hue/hue_preview.png'
 import hueDesktop from '../../images/portfolio/hue/hue_preview.png'
 
-import remixarkiveMobile from '../../images/portfolio/remixarkive/remix_arkive_01.png'
-import remixarkiveTablet from '../../images/portfolio/remixarkive/remix_arkive_01.png'
-import remixarkiveDesktop from '../../images/portfolio/remixarkive/remix_arkive_01.png'
+import remixarkiveMobile from '../../images/portfolio/remixarkive/remixarkive_preview.png'
+import remixarkiveTablet from '../../images/portfolio/remixarkive/remixarkive_preview.png'
+import remixarkiveDesktop from '../../images/portfolio/remixarkive/remixarkive_preview.png'
 
 import twitchbotMobile from '../../images/portfolio/twitchbot/twitchbot_preview.png'
 import twitchbotTablet from '../../images/portfolio/twitchbot/twitchbot_preview.png'
@@ -143,10 +139,11 @@ export default function Portfolio(): JSX.Element {
 				description={
 					<>
 						This is a custom chatbot solution that I built for my own Twitch
-						channel. It features a number of API-connected commands,
+						channel. It features a number of API-connected commands (dad jokes, quotes, weather look-up),
 						user-interactive games (Magic 8-Ball, Rock-Paper-Scissors), and
-						command "cool-off" feature for to prevent viewer overuse. Built with
-						Node, TMI.js, and the Twitch API.
+						a command "cool-off" feature to prevent viewer overuse/abuse. <br />
+						<br />
+						Built with Node, TMI.js, and the Twitch API.
 					</>
 				}
 				screenshots={[twitchbotMobile, twitchbotTablet, twitchbotDesktop]}
@@ -157,7 +154,8 @@ export default function Portfolio(): JSX.Element {
 				description={
 					<>
 						Here you'll find a collection of mobile-first, responsive UI
-						components and elements that I've built using Javascript, React, and CSS.
+						components and elements that I've built using Javascript, React, and
+						CSS.
 					</>
 				}
 				screenshots={[responsiveMobile, responsiveTablet, responsiveDesktop]}
@@ -169,8 +167,9 @@ export default function Portfolio(): JSX.Element {
 					<>
 						As part of a student data science project at UC Irvine in 2019, my
 						team mates compiled a series of slides with data collected, cleaned,
-						and presented regarding US rental pricing trends. Built with Python,
-						Pandas/Numpy, Plotly, and the Google Maps API.
+						and presented regarding US rental pricing trends. <br />
+						<br />
+						Built with Python, Pandas/Numpy, Plotly, and the Google Maps API.
 					</>
 				}
 				screenshots={[rentstudyMobile, rentstudyTablet, rentstudyDesktop]}
