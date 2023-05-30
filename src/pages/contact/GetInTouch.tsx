@@ -27,14 +27,14 @@ const GetInTouch = (): JSX.Element => {
 							<br /> I'm here to help. Feel free to get in touch with any
 							questions or ideas you have that I can assist with.
 						</p> */}
-						<div className={styles.resumelinks}>
+						<div>
 							<p
 								className={
 									isDesktop ? `body-1 ${styles.text}` : `body-2 ${styles.text}`
 								}
 								style={{ opacity: '0.8', fontWeight: '600' }}
 							>
-								marcusmcb@gmail.com
+								<a href='mailto:marcusmcb@gmail.com'>marcusmcb@gmail.com</a>
 							</p>
 							<p
 								className={
@@ -42,7 +42,7 @@ const GetInTouch = (): JSX.Element => {
 								}
 								style={{ opacity: '0.8', fontWeight: '600' }}
 							>
-								714-889-8793
+								<a href='tel:714-889-8793'>714-889-8793</a>
 							</p>
 							<p
 								className={
@@ -75,9 +75,23 @@ const GetInTouch = (): JSX.Element => {
 								</a>
 							</p>
 						</div>
-            <br/>
-						<div className={styles.iconContainer}>
-							<a href='/#' className={styles.iconLink}>
+						<br />
+						{/* <div className={styles.iconContainer}>
+							<a
+								href='https://www.linkedin.com/in/marcusmcbride-developer'
+								rel='noreferrer'
+								target='_blank'
+								className={styles.iconLink}
+								aria-label='linkedin'
+							>
+								<img src={linkedin} alt='linkedin' className={styles.icon} />
+							</a>
+							<a
+								href='https://www.github.com/marcusmcb'
+								rel='noreferrer'
+								target='_blank'
+								className={styles.iconLink}
+							>
 								<img
 									src={github}
 									alt='github'
@@ -86,14 +100,16 @@ const GetInTouch = (): JSX.Element => {
 								/>
 							</a>
 
-							<a href='/#' className={styles.iconLink} aria-label='twitter'>
+							<a
+								href='https://www.twitter.com/djmarcusmcb'
+								rel='noreferrer'
+								target='_blank'
+								className={styles.iconLink}
+								aria-label='twitter'
+							>
 								<img src={twitter} alt='twitter' className={styles.icon} />
 							</a>
-
-							<a href='/#' className={styles.iconLink} aria-label='linkedin'>
-								<img src={linkedin} alt='linkedin' className={styles.icon} />
-							</a>
-						</div>
+						</div> */}
 					</div>
 				</div>
 			</div>

@@ -6,8 +6,11 @@ import SectionThree from "../homepage/SectionThree";
 import CrateStats from "./CrateStats";
 import RemixArkive from "./RemixArikive";
 import Hue from "./Hue";
-
+import Jsp1 from "./Jsp1";
 import NpChatBot from "./NpChatbot"
+import TwitchBot from "./TwitchBot";
+import RentStudy from "./RentStudy";
+import ResponsiveElements from "./ResponsiveElements";
 
 const Detail = (): JSX.Element => {
   let { id } = useParams();
@@ -22,7 +25,10 @@ const Detail = (): JSX.Element => {
       {id === "npchatbot" && <NpChatBot />}
       {id === 'remixarkive' && <RemixArkive/>}
       {id === 'hue' && <Hue/>}      
-
+      {id === 'JSP1' && <Jsp1/>}
+      {id === 'twitchbot' && <TwitchBot/>}
+      {id === 'rentstudy' && <RentStudy/>}
+      {id === 'responsiveelements' && <ResponsiveElements/>}
       <SectionThree />
     </main>
   );
