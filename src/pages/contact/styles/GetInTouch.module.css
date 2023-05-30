@@ -5,14 +5,30 @@
   border-top: 1px solid hsla(245, 10%, 22%, 0.15);
 }
 
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #33323d;
+}
+
+a:hover {
+  color: darkgreen;
+}
+
+.resumelinks {
+  font-size: 50px;
+}
+
 .title {
   text-align: start;
-  margin-bottom: 24px;
+  margin-bottom: 18px;
 }
 
 .text {
   text-align: start;
-  margin-bottom: 24px;
+  margin-bottom: 18px;
 }
 
 .iconContainer {
