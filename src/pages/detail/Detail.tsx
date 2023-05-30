@@ -21,14 +21,14 @@ const Detail = (): JSX.Element => {
 
   return (
     <main className={styles.main}>
-      {id === "cratestats" && <CrateStats />}
-      {id === "npchatbot" && <NpChatBot />}
-      {id === 'remixarkive' && <RemixArkive/>}
+      {id === "CrateStats" && <CrateStats />}
+      {id === "npChatBot" && <NpChatBot />}
+      {id === 'RemixArkive' && <RemixArkive/>}
       {id === 'hue' && <Hue/>}      
       {id === 'JSP1' && <Jsp1/>}
       {id === 'twitchbot' && <TwitchBot/>}
-      {id === 'rentstudy' && <RentStudy/>}
-      {id === 'responsiveelements' && <ResponsiveElements/>}
+      {id === 'Rent Study' && <RentStudy/>}
+      {id === 'Responsive Elements' && <ResponsiveElements/>}
       <SectionThree />
     </main>
   );

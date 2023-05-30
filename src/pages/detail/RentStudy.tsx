@@ -16,7 +16,7 @@ const RentStudy = (): JSX.Element => {
 	return (
 		<ProjectDetail
 			heroImages={[heroMobile, heroTablet, heroDesktop]}
-			title='RentStudy'
+			title='Rent Study'
 			description={<>Rent Study Description</>}
 			keywords={['Data Science', 'Data Analysis', 'Data Visualization']}
 			technologies={['Python', 'Pandas', 'Numpy', 'Matplotlib', 'Plotly']}
@@ -24,8 +24,8 @@ const RentStudy = (): JSX.Element => {
 			background={<>Rent Study Background</>}
 			preview1={[previewMobile1, previewTablet1, previewDesktop1]}
 			preview2={[previewMobile2, previewTablet2, previewDesktop2]}
-			next='rentstudy'
-			previous='hue'
+			next='CrateStats'
+			previous='Responsive Elements'
 		/>
 	)
 }

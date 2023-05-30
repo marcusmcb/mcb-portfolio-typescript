@@ -72,8 +72,8 @@ const CrateStats = (): JSX.Element => {
       }
       preview1={[previewMobile1, previewTablet1, previewDesktop1]}
       preview2={[previewMobile2, previewTablet2, previewDesktop2]}
-      next="bookmark"
-      previous="fylo"
+      next="npChatBot"
+      previous="Rent Study"
     />
   );
 };

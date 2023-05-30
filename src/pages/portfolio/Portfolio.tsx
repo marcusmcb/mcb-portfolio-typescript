@@ -56,10 +56,10 @@ export default function Portfolio(): JSX.Element {
 					</>
 				}
 				screenshots={[cratestatsMobile, cratestatsTablet, cratestatsDesktop]}
-				param='cratestats'
+				param='CrateStats'
 			/>
 			<Project.Left
-				title='npChatbot'
+				title='npChatBot'
 				description={
 					<>
 						This chat-bot adds a set of command features to your Twitch streams
@@ -74,7 +74,7 @@ export default function Portfolio(): JSX.Element {
 					</>
 				}
 				screenshots={[npchatbotMobile, npchatbotTablet, npchatbotDesktop]}
-				param='npchatbot'
+				param='npChatBot'
 			/>
 			<Project.Right
 				title='RemixArkive'
@@ -88,7 +88,7 @@ export default function Portfolio(): JSX.Element {
 					</>
 				}
 				screenshots={[remixarkiveMobile, remixarkiveTablet, remixarkiveDesktop]}
-				param='remixarkive'
+				param='RemixArkive'
 			/>
 			<Project.Left
 				title='Philips Hue Smart Lighting Control'
@@ -159,7 +159,7 @@ export default function Portfolio(): JSX.Element {
 					</>
 				}
 				screenshots={[responsiveMobile, responsiveTablet, responsiveDesktop]}
-				param='responsiveelements'
+				param='Responsive Elements'
 			/>
 			<Project.Left
 				title='US Rental Pricing Analysis'
@@ -173,7 +173,7 @@ export default function Portfolio(): JSX.Element {
 					</>
 				}
 				screenshots={[rentstudyMobile, rentstudyTablet, rentstudyDesktop]}
-				param='rentstudy'
+				param='Rent Study'
 			/>
 			<SectionThree />
 		</main>

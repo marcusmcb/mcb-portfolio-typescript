@@ -16,7 +16,7 @@ const ResponsiveElements = (): JSX.Element => {
 	return (
 		<ProjectDetail
 			heroImages={[heroMobile, heroTablet, heroDesktop]}
-			title='ResponsiveElements'
+			title='Responsive Elements'
 			description={<>Responsive Elements Description</>}
 			keywords={['Responsive Design', 'Mobile First']}
 			technologies={['Javascript', 'React', 'CSS']}
@@ -24,8 +24,8 @@ const ResponsiveElements = (): JSX.Element => {
 			background={<>Responsive Elements Background</>}
 			preview1={[previewMobile1, previewTablet1, previewDesktop1]}
 			preview2={[previewMobile2, previewTablet2, previewDesktop2]}
-			next='ResponsiveElements'
-			previous='hue'
+			next='Rent Study'
+			previous='twitchbot'
 		/>
 	)
 }

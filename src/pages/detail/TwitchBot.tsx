@@ -24,8 +24,8 @@ const TwitchBot = (): JSX.Element => {
 			background={<>Twitch Chat Bot Background</>}
 			preview1={[previewMobile1, previewTablet1, previewDesktop1]}
 			preview2={[previewMobile2, previewTablet2, previewDesktop2]}
-			next='twitchbot'
-			previous='hue'
+			next='Responsive Elements'
+			previous='JSP1'
 		/>
 	)
 }
