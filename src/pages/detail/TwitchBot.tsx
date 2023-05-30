@@ -16,7 +16,7 @@ const TwitchBot = (): JSX.Element => {
 	return (
 		<ProjectDetail
 			heroImages={[heroMobile, heroTablet, heroDesktop]}
-			title='TwitchBot'
+			title='Twitch Bot'
 			description={<>Twitch Chat Bot Description</>}
 			keywords={['Live Streaming', 'Twitch', 'Chat Bot']}
 			technologies={['Javascript', 'Node', 'TMI.js']}
@@ -25,7 +25,7 @@ const TwitchBot = (): JSX.Element => {
 			preview1={[previewMobile1, previewTablet1, previewDesktop1]}
 			preview2={[previewMobile2, previewTablet2, previewDesktop2]}
 			next='Responsive Elements'
-			previous='JSP1'
+			previous='JSP-1'
 		/>
 	)
 }

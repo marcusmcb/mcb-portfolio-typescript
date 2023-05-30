@@ -16,7 +16,7 @@ const Jsp1 = (): JSX.Element => {
 	return (
 		<ProjectDetail
 			heroImages={[heroMobile, heroTablet, heroDesktop]}
-			title='JSP1'
+			title='JSP-1'
 			description={<>JSP-1 Description</>}
 			keywords={['Javascript', 'MIDI']}
 			technologies={['Javascript', 'MIDI']}
@@ -24,7 +24,7 @@ const Jsp1 = (): JSX.Element => {
 			background={<>JSP-1 Background</>}
 			preview1={[previewMobile1, previewTablet1, previewDesktop1]}
 			preview2={[previewMobile2, previewTablet2, previewDesktop2]}
-			next='twitchbot'
+			next='Twitch Bot'
 			previous='hue'
 		/>
 	)

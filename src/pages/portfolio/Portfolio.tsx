@@ -132,7 +132,7 @@ export default function Portfolio(): JSX.Element {
 					</>
 				}
 				screenshots={[jsp1Mobile, jsp1Tablet, jsp1Desktop]}
-				param='JSP1'
+				param='JSP-1'
 			/>
 			<Project.Left
 				title='Twitch Chat Bot'
@@ -147,7 +147,7 @@ export default function Portfolio(): JSX.Element {
 					</>
 				}
 				screenshots={[twitchbotMobile, twitchbotTablet, twitchbotDesktop]}
-				param='twitchbot'
+				param='Twitch Bot'
 			/>
 			<Project.Right
 				title='Responsive Components'

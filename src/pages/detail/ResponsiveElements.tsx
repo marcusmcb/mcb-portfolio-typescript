@@ -25,7 +25,7 @@ const ResponsiveElements = (): JSX.Element => {
 			preview1={[previewMobile1, previewTablet1, previewDesktop1]}
 			preview2={[previewMobile2, previewTablet2, previewDesktop2]}
 			next='Rent Study'
-			previous='twitchbot'
+			previous='Twitch Bot'
 		/>
 	)
 }

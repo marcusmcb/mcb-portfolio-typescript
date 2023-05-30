@@ -25,8 +25,8 @@ const Detail = (): JSX.Element => {
       {id === "npChatBot" && <NpChatBot />}
       {id === 'RemixArkive' && <RemixArkive/>}
       {id === 'hue' && <Hue/>}      
-      {id === 'JSP1' && <Jsp1/>}
-      {id === 'twitchbot' && <TwitchBot/>}
+      {id === 'JSP-1' && <Jsp1/>}
+      {id === 'Twitch Bot' && <TwitchBot/>}
       {id === 'Rent Study' && <RentStudy/>}
       {id === 'Responsive Elements' && <ResponsiveElements/>}
       <SectionThree />
