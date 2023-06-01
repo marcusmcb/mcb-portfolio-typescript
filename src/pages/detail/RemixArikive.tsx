@@ -2,9 +2,9 @@ import { ReactNode } from 'react'
 
 import ProjectDetail from './ProjectDetail'
 
-import heroMobile from '../../images/detail/mobile/image-manage-hero@2x.jpg'
-import heroTablet from '../../images/detail/tablet/image-manage-hero@2x.jpg'
-import heroDesktop from '../../images/detail/desktop/image-manage-hero@2x.jpg'
+import heroMobile from '../../images/portfolio/remixarkive/remixarkive_header.png'
+import heroTablet from '../../images/portfolio/remixarkive/remixarkive_header.png'
+import heroDesktop from '../../images/portfolio/remixarkive/remixarkive_header.png'
 
 import previewMobile1 from '../../images/detail/mobile/image-manage-preview-1@2x.jpg'
 import previewTablet1 from '../../images/detail/tablet/image-manage-preview-1@2x.jpg'
@@ -29,7 +29,7 @@ const RemixArkive = (): JSX.Element => {
 					submitted by colleagues of mine within the music and DJ communities.
 				</>
 			}
-			keywords={['Live Streaming', 'Web Scraping', 'Data Analytics']}
+			keywords={['Automation', 'API Integration', 'Social Media Bot']}
 			technologies={['Node', 'Heroku', 'Twitter API']}
 			link={['https://www.twitter.com/remixarkive']}
 			background={
@@ -66,8 +66,8 @@ const RemixArkive = (): JSX.Element => {
 					out, running as a script via Heroku.
 				</>
 			}
-			preview1={[previewMobile1, previewTablet1, previewDesktop1]}
-			preview2={[previewMobile2, previewTablet2, previewDesktop2]}
+			preview1={[]}
+			preview2={[]}
 			next='hue'
 			previous='npChatBot'
 		/>

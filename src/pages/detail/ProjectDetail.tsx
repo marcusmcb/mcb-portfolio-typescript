@@ -44,7 +44,7 @@ const ProjectDetail = ({
       <section className={styles.sectionOne}>
         <div className="container">
           <picture>
-            <source srcSet={heroImages[2]} media="(min-width: 1440px)" />
+            <source srcSet={heroImages[2]} media="(min-width: 768px)" />
             <source srcSet={heroImages[1]} media="(min-width: 768px)" />
             <img src={heroImages[0]} alt="hero screenshot" width="100%" />
           </picture>
@@ -99,7 +99,7 @@ const ProjectDetail = ({
           <div className={styles.backgroundContainer}>
             <h3 className={`h3 ${styles.bTitle}`}>Project Background</h3>
             <p className={`body-2 ${styles.background}`}>{background}</p>
-            <h3 className={`h3 ${styles.staticTitle}`}>Static Previews</h3>
+            {/* <h3 className={`h3 ${styles.staticTitle}`}>Static Previews</h3> */}
             {/* <div>{previews}</div> */}
             <picture>
               <source srcSet={preview1[2]} media="(min-width: 1440px)" />
