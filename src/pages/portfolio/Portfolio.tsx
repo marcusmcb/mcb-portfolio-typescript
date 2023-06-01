@@ -36,10 +36,12 @@ import responsiveTablet from '../../images/portfolio/responsive/responsive_previ
 import responsiveDesktop from '../../images/portfolio/responsive/responsive_preview.png'
 
 export default function Portfolio(): JSX.Element {
+
 	useEffect(() => {
 		document.title = 'MCB Portfolio | Projects'
 		window.scrollTo(0, 0)
 	}, [])
+	
 	return (
 		<main className={styles.main}>
 			<Project.Right
@@ -81,7 +83,8 @@ export default function Portfolio(): JSX.Element {
 				description={
 					<>
 						RemixArkive is an automated script that uses Twitter to tweet out
-						links to rare, unusual, or hard-to-find remixed versions of songs.
+						links to rare, unusual, or hard-to-find remixed versions of songs,
+						submitted by colleagues of mine within the music and DJ communities.
 						<br />
 						<br />
 						Built with Node, Heroku, and the Twitter API.
@@ -139,9 +142,10 @@ export default function Portfolio(): JSX.Element {
 				description={
 					<>
 						This is a custom chatbot solution that I built for my own Twitch
-						channel. It features a number of API-connected commands (dad jokes, quotes, weather look-up),
-						user-interactive games (Magic 8-Ball, Rock-Paper-Scissors), and
-						a command "cool-off" feature to prevent viewer overuse/abuse. <br />
+						channel. It features a number of API-connected commands (dad jokes,
+						quotes, weather look-up), user-interactive games (Magic 8-Ball,
+						Rock-Paper-Scissors), and a command "cool-off" feature to prevent
+						viewer overuse/abuse. <br />
 						<br />
 						Built with Node, TMI.js, and the Twitch API.
 					</>

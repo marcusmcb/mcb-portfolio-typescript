@@ -7,7 +7,7 @@ import { useMediaQuery } from 'react-responsive'
 
 const GetInTouch = (): JSX.Element => {
 	const isDesktop = useMediaQuery({
-		query: '(min-width: 1440px)',
+		query: '(min-width: 1200px)',
 	})
 
 	return (
