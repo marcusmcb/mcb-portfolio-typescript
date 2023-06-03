@@ -23,11 +23,7 @@ const NpChatBot = (): JSX.Element => {
 					interactive commands to the user's channel. These commands enable the
 					streamer's viewers to interact with their Serato play history,
 					allowing them to display the currently playing track, any previously
-					played track, the total tracks played so far, and several others.
-					<br />
-					<br />
-					Built with Node, TMI.js, Axios/Cheerio, and Serato's Live Playlists
-					feature.
+					played track, the total tracks played so far, and several others.					
 				</>
 			}
 			keywords={['Live Streaming', 'Web Scraping', 'Data Analytics']}

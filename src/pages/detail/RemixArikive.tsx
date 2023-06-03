@@ -25,6 +25,9 @@ const RemixArkive = (): JSX.Element => {
 					RemixArkive is an automated script that uses Twitter to tweet out
 					links to rare, unusual, or hard-to-find remixed versions of songs,
 					submitted by colleagues of mine within the music and DJ communities.
+					<br />
+					<br />					
+					Built with Node, Heroku, and the Twitter API.
 				</>
 			}
 			keywords={['Automation', 'API Integration', 'Social Media Bot']}

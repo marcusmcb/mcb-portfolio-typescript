@@ -4,9 +4,7 @@
   font-weight: 700;
   font-size: 13px;
   line-height: 30px;
-
   color: var(--primary-color-1);
-
   text-align: start;
 }
 
@@ -22,7 +20,6 @@
   position: relative;
   padding-top: 24px;
   padding-bottom: 24px;
-
   border-top: 1px solid hsla(245, 10%, 22%, 0.15);
   border-bottom: 1px solid hsla(245, 10%, 22%, 0.15);
 }
@@ -53,7 +50,6 @@
 .background {
   text-align: start;
   opacity: 0.8;
-
   margin-bottom: 40px;
 }
 
@@ -64,7 +60,7 @@
 }
 
 /* Tablet Size  */
-@media (min-width: 768px) {
+@media (min-width: 922px) {
   .sectionOne {
     margin-bottom: 40px;
   }
