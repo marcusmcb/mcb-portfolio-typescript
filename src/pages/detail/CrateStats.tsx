@@ -30,7 +30,7 @@ const CrateStats = (): JSX.Element => {
 			}
 			keywords={['Full Stack Development', 'Data Analytcs']}
 			technologies={['React', 'Node', 'Material UI', 'Express', 'Firebase']}
-			link={['http://www.cratestats.com']}
+			link={['https://github.com/marcusmcb/crate-stats']}
 			external_link={['http://www.cratestats.com']}
 			background={
 				<>

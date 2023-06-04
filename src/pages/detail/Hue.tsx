@@ -28,10 +28,10 @@ const Hue = (): JSX.Element => {
 			}
 			keywords={['Live Streaming', 'Web Scraping', 'Data Analytics']}
 			technologies={['Node', 'TMI.js', 'Twitch', 'Serato']}
-			link={['https://www.google.com']}
+			link={['https://github.com/marcusmcb/philips-hue-twitch-chat-control']}
 			background={
 				<>
-					Glacing around my portfolio, it's no secret that I'm a fan of
+					Glancing around my portfolio, it's no secret that I'm a fan of
 					interactive "bot" commands for various streaming platforms. The
 					integrations are seemingly endless at times, and one that's become
 					common in recent years has been the ability for users to control a
@@ -42,9 +42,9 @@ const Hue = (): JSX.Element => {
 					decided to experiment a bit with Philips's Hue smart bulbs and bridge
 					component, both of which you'll need to utilize the code for this
 					script. The script features commands for various static lighting
-					options (by color, etc), a command to randomize the lightining color,
-					as well as a morph command which triggers a "color loop" within the
-					Hue device and sets the color to change over time. The script is
+					options (by color, etc), a command to randomize the lighting color, as
+					well as a morph command which triggers a "color loop" within the Hue
+					device and sets the color to change over time. The script is
 					configured to control a single Hue fixture but can be expanded to
 					include many automated lighting effects with the additional of second
 					(or more) Hue fixture.

@@ -1,8 +1,8 @@
 import ProjectDetail from './ProjectDetail'
 
-import heroMobile from '../../images/detail/mobile/image-manage-hero@2x.jpg'
-import heroTablet from '../../images/detail/tablet/image-manage-hero@2x.jpg'
-import heroDesktop from '../../images/detail/desktop/image-manage-hero@2x.jpg'
+import heroMobile from '../../images/portfolio/jsp1/jsp1_preview.png'
+import heroTablet from '../../images/portfolio/jsp1/jsp1_preview.png'
+import heroDesktop from '../../images/portfolio/jsp1/jsp1_preview_wide.png'
 
 import previewMobile1 from '../../images/detail/mobile/image-manage-preview-1@2x.jpg'
 import previewTablet1 from '../../images/detail/tablet/image-manage-preview-1@2x.jpg'
@@ -22,7 +22,7 @@ const Jsp1 = (): JSX.Element => {
 			description={
 				<>
 					I watched an excellent{' '}
-					<span>
+					<StrongText>
 						<a
 							href='https://www.youtube.com/watch?v=VuN8qwZoego'
 							rel='noreferrer'
@@ -30,7 +30,7 @@ const Jsp1 = (): JSX.Element => {
 						>
 							YouTube
 						</a>
-					</span>{' '}
+					</StrongText>{' '}
 					tutorial awhile back on how to build a simple QWERTY drum machine
 					using Javascript. I decided to add a few additional sound kits, MIDI
 					connectivity, and even velocity sensitivity for added MIDI
@@ -42,7 +42,8 @@ const Jsp1 = (): JSX.Element => {
 			}
 			keywords={['Web Audio', 'Music Apps', 'MIDI']}
 			technologies={['HTML', 'CSS', 'vanilla Javascript', 'MIDI']}
-			link={['https://www.jspone.com']}
+			link={['https://github.com/marcusmcb/JS-Drum-Machine']}
+			external_link={['https://www.jspone.com']}
 			background={
 				<>
 					When I did a six month full stack web development boot camp in the

@@ -37,8 +37,6 @@ const ProjectDetail = ({
 		window.scrollTo(0, 0)
 	}, [])
 
-	console.log(link[0])
-
 	return (
 		<>
 			<section className={styles.sectionOne}>
@@ -84,24 +82,19 @@ const ProjectDetail = ({
 						</p>
 						{external_link ? (
 							<div style={{ marginBottom: '15px' }}>
-								<ExternalButton
-									text='visit website'
-									href={link[0]}
-									rel={'noreferrer'}
-									target={'_blank'}
-								/>
+								<ExternalButton text='visit website' href={external_link[0]} />
 							</div>
 						) : (
 							<></>
 						)}
-						<SecondaryButton text='browse code' href={link[0]} />
+						<ExternalButton text='browse code' href={link[0]} />
 					</div>
 
 					{/* right container */}
 					<div className={styles.backgroundContainer}>
 						<h3 className={`h3 ${styles.bTitle}`}>Project Background</h3>
 						<p className={`body-2 ${styles.background}`}>{background}</p>
-						<h3 className={`h3 ${styles.staticTitle}`}>Previews:</h3>
+						{/* <h3 className={`h3 ${styles.staticTitle}`}>Previews:</h3>
 
 						<picture>
 							<source srcSet={preview1[2]} media='(min-width: 1440px)' />
@@ -121,7 +114,7 @@ const ProjectDetail = ({
 							</picture>
 						) : (
 							<></>
-						)}
+						)} */}
 					</div>
 				</div>
 			</section>

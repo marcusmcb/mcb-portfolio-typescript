@@ -1,24 +1,21 @@
-import { Link } from "react-router-dom";
-import styles from "./styles/SecondaryButton.module.css";
+import styles from './styles/SecondaryButton.module.css'
 
 interface ExternalButtonProps {
-  text: string;
-  href: string;
-  rel: string;
-  target: string;
+	text: string
+	href: string
 }
 
-const ExternalButton = ({
-  text,
-  href,
-  rel,
-  target,
-}: ExternalButtonProps): JSX.Element => {
-  return (
-    <Link className={styles.container} to={href} rel={rel} target={target}>
-      <button className={styles.button}>{text}</button>
-    </Link>
-  );
-};
+const ExternalButton = ({ text, href }: ExternalButtonProps): JSX.Element => {
+	return (
+		<a
+			className={styles.container}
+			href={href}
+			rel='noreferrer'
+			target='_blank'
+		>
+			<button className={styles.button}>{text}</button>
+		</a>
+	)
+}
 
-export default ExternalButton;
+export default ExternalButton

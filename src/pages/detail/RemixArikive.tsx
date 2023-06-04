@@ -32,7 +32,8 @@ const RemixArkive = (): JSX.Element => {
 			}
 			keywords={['Automation', 'API Integration', 'Social Media Bot']}
 			technologies={['Node', 'Heroku', 'Twitter API']}
-			link={['https://www.twitter.com/remixarkive']}
+			link={['https://github.com/marcusmcb/twit-bot']}
+			external_link={['https://www.twitter.com/remixarkive']}
 			background={
 				<>
 					Awhile back, an old DJ colleague of mine asked me to look into

@@ -28,7 +28,7 @@ const RentStudy = (): JSX.Element => {
 			}
 			keywords={['Data Science', 'Data Analysis', 'Data Visualization']}
 			technologies={['Python', 'Pandas', 'Numpy', 'Matplotlib', 'Plotly']}
-			link={['https://www.twitch.tv/djmarcusmcb']}
+			link={['https://drive.google.com/file/d/1sTXkgYq3ZMBJnhmSbzQk7MNvmdPXCO9X/view']}
 			background={
 				<>
 					As part of the data analytics and visualization boot camp that I took
