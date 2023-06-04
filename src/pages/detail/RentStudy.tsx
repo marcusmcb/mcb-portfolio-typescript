@@ -2,7 +2,7 @@ import ProjectDetail from './ProjectDetail'
 
 import heroMobile from '../../images/detail/mobile/image-manage-hero@2x.jpg'
 import heroTablet from '../../images/detail/tablet/image-manage-hero@2x.jpg'
-import heroDesktop from '../../images/detail/desktop/image-manage-hero@2x.jpg'
+import heroDesktop from '../../images/portfolio/rentstudy/rentstudy_header_wide.png'
 
 import previewMobile1 from '../../images/detail/mobile/image-manage-preview-1@2x.jpg'
 import previewTablet1 from '../../images/detail/tablet/image-manage-preview-1@2x.jpg'

@@ -2,7 +2,7 @@ import ProjectDetail from './ProjectDetail'
 
 import heroMobile from '../../images/portfolio/twitchbot/twitchbot_header_mobile.png'
 import heroTablet from '../../images/portfolio/twitchbot/twitchbot_header.png'
-import heroDesktop from '../../images/portfolio/twitchbot/twitchbot_header_wide.png'
+import heroDesktop from '../../images/portfolio/twitchbot/twitchbot_header_wide_01.png'
 
 import previewMobile1 from '../../images/detail/mobile/image-manage-preview-1@2x.jpg'
 import previewTablet1 from '../../images/detail/tablet/image-manage-preview-1@2x.jpg'

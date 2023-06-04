@@ -1,8 +1,8 @@
 import ProjectDetail from './ProjectDetail'
 
-import heroMobile from '../../images/portfolio/crate_stats_540.png'
-import heroTablet from '../../images/portfolio/crate_stats_horiz.png'
-import heroDesktop from '../../images/portfolio/crate_stats_horiz.png'
+import heroMobile from '../../images/portfolio/cratestats/cratestats_preview.png'
+import heroTablet from '../../images/portfolio/cratestats/cratestats_preview.png'
+import heroDesktop from '../../images/portfolio/cratestats/cratestats_preview_wide.png'
 
 import previewMobile1 from '../../images/portfolio/crate_stats_540.png'
 import previewTablet1 from '../../images/portfolio/crate_stats_horiz.png'
