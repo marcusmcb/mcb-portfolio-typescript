@@ -1,5 +1,4 @@
 import { useEffect } from 'react'
-import SecondaryButton from '../../components/SecondaryButton'
 import ExternalButton from '../../components/ExternalButton'
 import Navigation from './Navigation'
 import styles from './styles/ProjectDetail.module.css'

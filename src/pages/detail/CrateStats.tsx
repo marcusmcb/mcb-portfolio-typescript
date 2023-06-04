@@ -8,10 +8,6 @@ import previewMobile1 from '../../images/portfolio/crate_stats_540.png'
 import previewTablet1 from '../../images/portfolio/crate_stats_horiz.png'
 import previewDesktop1 from '../../images/portfolio/crate_stats_horiz.png'
 
-import previewMobile2 from '../../images/detail/mobile/image-manage-preview-2@2x.jpg'
-import previewTablet2 from '../../images/detail/tablet/image-manage-preview-2@2x.jpg'
-import previewDesktop2 from '../../images/detail/desktop/image-manage-preview-2@2x.jpg'
-
 const CrateStats = (): JSX.Element => {
 	return (
 		<ProjectDetail

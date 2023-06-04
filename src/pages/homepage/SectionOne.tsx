@@ -4,10 +4,6 @@ import { useMediaQuery } from 'react-responsive'
 
 import PrimaryButton from '../../components/PrimaryButton'
 
-// import mobileImage from "../../images/homepage/mobile/image-homepage-hero.jpg";
-// import tabletImage from "../../images/homepage/tablet/image-homepage-hero.jpg";
-// import desktopImage from "../../images/homepage/desktop/image-homepage-hero.jpg";
-
 import mobileImage2x from '../../images/homepage/desktop/code-image.jpg'
 import tabletImage2x from '../../images/homepage/desktop/code-image.jpg'
 import desktopImage2x from '../../images/homepage/desktop/code-image.jpg'

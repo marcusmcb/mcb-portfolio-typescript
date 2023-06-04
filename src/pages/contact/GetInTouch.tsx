@@ -1,8 +1,5 @@
 import styles from './styles/GetInTouch.module.css'
 
-import github from '../../images/icons/github.svg'
-import twitter from '../../images/icons/twitter.svg'
-import linkedin from '../../images/icons/linkedin.svg'
 import { useMediaQuery } from 'react-responsive'
 
 const GetInTouch = (): JSX.Element => {
@@ -16,7 +13,8 @@ const GetInTouch = (): JSX.Element => {
 				<div className={styles.wrapper}>
 					<h2 className={`h2 ${styles.title}`}>Get in Touch</h2>
 					<div className={styles.bodyContainer}>
-						{/* <p
+						{/* <br/>
+						<p
 							className={
 								isDesktop ? `body-1 ${styles.text}` : `body-2 ${styles.text}`
 							}
@@ -26,7 +24,11 @@ const GetInTouch = (): JSX.Element => {
 							<br />
 							<br /> I'm here to help. Feel free to get in touch with any
 							questions or ideas you have that I can assist with.
-						</p> */}
+						</p>
+						<br/>
+						<hr/>
+						<br/>
+						<br/>						 */}
 						<div>
 							<p
 								className={
@@ -76,40 +78,6 @@ const GetInTouch = (): JSX.Element => {
 							</p>
 						</div>
 						<br />
-						{/* <div className={styles.iconContainer}>
-							<a
-								href='https://www.linkedin.com/in/marcusmcbride-developer'
-								rel='noreferrer'
-								target='_blank'
-								className={styles.iconLink}
-								aria-label='linkedin'
-							>
-								<img src={linkedin} alt='linkedin' className={styles.icon} />
-							</a>
-							<a
-								href='https://www.github.com/marcusmcb'
-								rel='noreferrer'
-								target='_blank'
-								className={styles.iconLink}
-							>
-								<img
-									src={github}
-									alt='github'
-									className={styles.icon}
-									aria-label='github'
-								/>
-							</a>
-
-							<a
-								href='https://www.twitter.com/djmarcusmcb'
-								rel='noreferrer'
-								target='_blank'
-								className={styles.iconLink}
-								aria-label='twitter'
-							>
-								<img src={twitter} alt='twitter' className={styles.icon} />
-							</a>
-						</div> */}
 					</div>
 				</div>
 			</div>

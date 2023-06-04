@@ -1,16 +1,8 @@
 import ProjectDetail from './ProjectDetail'
 
-import heroMobile from '../../images/detail/mobile/image-manage-hero@2x.jpg'
-import heroTablet from '../../images/detail/tablet/image-manage-hero@2x.jpg'
+import heroMobile from '../../images/portfolio/rentstudy/rentstudy_header.png'
+import heroTablet from '../../images/portfolio/rentstudy/rentstudy_header.png'
 import heroDesktop from '../../images/portfolio/rentstudy/rentstudy_header_wide.png'
-
-import previewMobile1 from '../../images/detail/mobile/image-manage-preview-1@2x.jpg'
-import previewTablet1 from '../../images/detail/tablet/image-manage-preview-1@2x.jpg'
-import previewDesktop1 from '../../images/detail/desktop/image-manage-preview-1@2x.jpg'
-
-import previewMobile2 from '../../images/detail/mobile/image-manage-preview-2@2x.jpg'
-import previewTablet2 from '../../images/detail/tablet/image-manage-preview-2@2x.jpg'
-import previewDesktop2 from '../../images/detail/desktop/image-manage-preview-2@2x.jpg'
 
 const RentStudy = (): JSX.Element => {
 	return (
@@ -28,7 +20,9 @@ const RentStudy = (): JSX.Element => {
 			}
 			keywords={['Data Science', 'Data Analysis', 'Data Visualization']}
 			technologies={['Python', 'Pandas', 'Numpy', 'Matplotlib', 'Plotly']}
-			link={['https://drive.google.com/file/d/1sTXkgYq3ZMBJnhmSbzQk7MNvmdPXCO9X/view']}
+			link={[
+				'https://drive.google.com/file/d/1sTXkgYq3ZMBJnhmSbzQk7MNvmdPXCO9X/view',
+			]}
 			background={
 				<>
 					As part of the data analytics and visualization boot camp that I took
@@ -45,12 +39,12 @@ const RentStudy = (): JSX.Element => {
 					<br />
 					<br />
 					The analysis and data clean-up were done with Python (via Jupyter) and
-					the visualizations within the slides were created utilizing the
-					Plotly library as well as Matplotlib and the Google Maps API.
+					the visualizations within the slides were created utilizing the Plotly
+					library as well as Matplotlib and the Google Maps API.
 				</>
 			}
-			preview1={[previewMobile1, previewTablet1, previewDesktop1]}
-			preview2={[previewMobile2, previewTablet2, previewDesktop2]}
+			preview1={[]}
+			preview2={[]}
 			next='CrateStats'
 			previous='Responsive Elements'
 		/>

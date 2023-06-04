@@ -4,14 +4,6 @@ import heroMobile from '../../images/portfolio/npchatbot/npchatbot_preview.png'
 import heroTablet from '../../images/portfolio/npchatbot/npchatbot_preview.png'
 import heroDesktop from '../../images/portfolio/npchatbot/npchatbot_preview_wide.png'
 
-import previewMobile1 from '../../images/detail/mobile/image-manage-preview-1@2x.jpg'
-import previewTablet1 from '../../images/detail/tablet/image-manage-preview-1@2x.jpg'
-import previewDesktop1 from '../../images/detail/desktop/image-manage-preview-1@2x.jpg'
-
-import previewMobile2 from '../../images/detail/mobile/image-manage-preview-2@2x.jpg'
-import previewTablet2 from '../../images/detail/tablet/image-manage-preview-2@2x.jpg'
-import previewDesktop2 from '../../images/detail/desktop/image-manage-preview-2@2x.jpg'
-
 const NpChatBot = (): JSX.Element => {
 	return (
 		<ProjectDetail
@@ -49,8 +41,8 @@ const NpChatBot = (): JSX.Element => {
 					development).
 				</>
 			}
-			preview1={[previewMobile1, previewTablet1, previewDesktop1]}
-			preview2={[previewMobile2, previewTablet2, previewDesktop2]}
+			preview1={[]}
+			preview2={[]}
 			previous='CrateStats'
 			next='RemixArkive'
 		/>

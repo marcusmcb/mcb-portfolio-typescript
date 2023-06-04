@@ -9,7 +9,7 @@ const Header = (): JSX.Element => {
 	return (
 		<footer>
 			<div className={`container ${styles.container}`}>
-				<div className={styles.imageContainer} style={{ cursor: 'pointer' }}>
+				<div className={styles.imageContainer}>
 					<img src={logo} alt='logo' className={styles.image} />
 				</div>
 				<nav id='bottomnav' className={styles.nav}>

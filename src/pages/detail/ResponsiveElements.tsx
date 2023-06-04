@@ -4,14 +4,6 @@ import heroMobile from '../../images/portfolio/responsive/responsive_header.png'
 import heroTablet from '../../images/portfolio/responsive/responsive_header.png'
 import heroDesktop from '../../images/portfolio/responsive/responsive_header_wide.png'
 
-import previewMobile1 from '../../images/detail/mobile/image-manage-preview-1@2x.jpg'
-import previewTablet1 from '../../images/detail/tablet/image-manage-preview-1@2x.jpg'
-import previewDesktop1 from '../../images/detail/desktop/image-manage-preview-1@2x.jpg'
-
-import previewMobile2 from '../../images/detail/mobile/image-manage-preview-2@2x.jpg'
-import previewTablet2 from '../../images/detail/tablet/image-manage-preview-2@2x.jpg'
-import previewDesktop2 from '../../images/detail/desktop/image-manage-preview-2@2x.jpg'
-
 import StrongText from '../../components/StrongText'
 import ExternalButton from '../../components/ExternalButton'
 
@@ -115,12 +107,12 @@ const ResponsiveElements = (): JSX.Element => {
 					<br />
 					<ExternalButton
 						text='browse code'
-						href='https://github.com/marcusmcb/crypto-dashboard'
+						href='https://github.com/marcusmcb/responsive-accordion'
 					/>
 				</>
 			}
-			preview1={[previewMobile1, previewTablet1, previewDesktop1]}
-			preview2={[previewMobile2, previewTablet2, previewDesktop2]}
+			preview1={[]}
+			preview2={[]}
 			next='Rent Study'
 			previous='Twitch Bot'
 		/>

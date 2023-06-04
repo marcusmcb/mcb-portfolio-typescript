@@ -4,14 +4,6 @@ import heroMobile from '../../images/portfolio/twitchbot/twitchbot_header_mobile
 import heroTablet from '../../images/portfolio/twitchbot/twitchbot_header.png'
 import heroDesktop from '../../images/portfolio/twitchbot/twitchbot_header_wide_01.png'
 
-import previewMobile1 from '../../images/detail/mobile/image-manage-preview-1@2x.jpg'
-import previewTablet1 from '../../images/detail/tablet/image-manage-preview-1@2x.jpg'
-import previewDesktop1 from '../../images/detail/desktop/image-manage-preview-1@2x.jpg'
-
-import previewMobile2 from '../../images/detail/mobile/image-manage-preview-2@2x.jpg'
-import previewTablet2 from '../../images/detail/tablet/image-manage-preview-2@2x.jpg'
-import previewDesktop2 from '../../images/detail/desktop/image-manage-preview-2@2x.jpg'
-
 import StrongText from '../../components/StrongText'
 import ItalicText from '../../components/ItalicText'
 
@@ -63,11 +55,13 @@ const TwitchBot = (): JSX.Element => {
 					<br />
 					<br />
 					The Node script powering the chat bot is run and hosted via Heroku and
-					can be tested any time by visiting my Twitch channel and entering <StrongText>!commands</StrongText>.
+					can be tested any time by visiting my Twitch channel, navigating to
+					the stream chat by clicking my username, and entering{' '}
+					<StrongText>!commands</StrongText>.
 				</>
 			}
-			preview1={[previewMobile1, previewTablet1, previewDesktop1]}
-			preview2={[previewMobile2, previewTablet2, previewDesktop2]}
+			preview1={[]}
+			preview2={[]}
 			next='Responsive Elements'
 			previous='JSP-1'
 		/>

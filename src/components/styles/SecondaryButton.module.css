@@ -1,10 +1,8 @@
 .container {
   width: fit-content;
   cursor: pointer;
-
   --color: var(--primary-color-3);
   --background-color: var(--secondary-color-1);
-
   text-decoration: none;
   display: block;
 }
@@ -16,7 +14,6 @@
 
 .button {
   padding: 17px 36px 17px 32px;
-
   font-family: "Public Sans";
   font-style: normal;
   font-weight: 400;
@@ -24,11 +21,8 @@
   line-height: 14px;
   letter-spacing: 2px;
   text-transform: uppercase;
-
   border: 1px solid var(--primary-color-3);
-
   color: var(--color);
   background-color: var(--background-color);
-
   cursor: inherit;
 }

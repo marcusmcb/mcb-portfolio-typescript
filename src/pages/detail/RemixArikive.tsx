@@ -4,14 +4,6 @@ import heroMobile from '../../images/portfolio/remixarkive/remixarkive_header.pn
 import heroTablet from '../../images/portfolio/remixarkive/remixarkive_header.png'
 import heroDesktop from '../../images/portfolio/remixarkive/remixarkive_preview_wide_01.png'
 
-// import previewMobile1 from '../../images/detail/mobile/image-manage-preview-1@2x.jpg'
-// import previewTablet1 from '../../images/detail/tablet/image-manage-preview-1@2x.jpg'
-// import previewDesktop1 from '../../images/detail/desktop/image-manage-preview-1@2x.jpg'
-
-// import previewMobile2 from '../../images/detail/mobile/image-manage-preview-2@2x.jpg'
-// import previewTablet2 from '../../images/detail/tablet/image-manage-preview-2@2x.jpg'
-// import previewDesktop2 from '../../images/detail/desktop/image-manage-preview-2@2x.jpg'
-
 import ItalicText from '../../components/ItalicText'
 import StrongText from '../../components/StrongText'
 
@@ -26,7 +18,7 @@ const RemixArkive = (): JSX.Element => {
 					links to rare, unusual, or hard-to-find remixed versions of songs,
 					submitted by colleagues of mine within the music and DJ communities.
 					<br />
-					<br />					
+					<br />
 					Built with Node, Heroku, and the Twitter API.
 				</>
 			}
