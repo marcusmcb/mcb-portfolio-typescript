@@ -17,11 +17,22 @@ const ResponsiveElements = (): JSX.Element => {
 		<ProjectDetail
 			heroImages={[heroMobile, heroTablet, heroDesktop]}
 			title='Responsive Elements'
-			description={<>Responsive Elements Description</>}
+			description={
+				<>
+					Here you'll find a collection of mobile-first, responsive UI
+					components and elements that I've built using Javascript, React, and
+					CSS.
+				</>
+			}
 			keywords={['Responsive Design', 'Mobile First']}
 			technologies={['Javascript', 'React', 'CSS']}
 			link={['https://www.twitch.tv/djmarcusmcb']}
-			background={<>Responsive Elements Background</>}
+			background={
+				<>
+					This is a collection of responsive components and elements that I've
+					built in the past for use in various projects, designs, or prototypes.
+				</>
+			}
 			preview1={[previewMobile1, previewTablet1, previewDesktop1]}
 			preview2={[previewMobile2, previewTablet2, previewDesktop2]}
 			next='Rent Study'

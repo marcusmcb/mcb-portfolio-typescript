@@ -12,6 +12,9 @@ import previewMobile2 from '../../images/detail/mobile/image-manage-preview-2@2x
 import previewTablet2 from '../../images/detail/tablet/image-manage-preview-2@2x.jpg'
 import previewDesktop2 from '../../images/detail/desktop/image-manage-preview-2@2x.jpg'
 
+import StrongText from '../../components/StrongText'
+import ItalicText from '../../components/ItalicText'
+
 const TwitchBot = (): JSX.Element => {
 	return (
 		<ProjectDetail
@@ -30,9 +33,39 @@ const TwitchBot = (): JSX.Element => {
 			}
 			keywords={['Live Streaming', 'Chat Bot', 'Interactive']}
 			technologies={['Javascript', 'Node', 'Twitch API', 'TMI.js']}
-			link={['https://www.twitch.tv/djmarcusmcb']}
+			link={['https://github.com/marcusmcb/twitch-chat-bot']}
 			external_link={['https://www.twitch.tv/djmarcusmcb']}
-			background={<>Twitch Chat Bot Background</>}
+			background={
+				<>
+					In 2020, with the COVID pandemic effectively shutting down most live,
+					in-person events across the country, most of my colleagues in the DJ
+					community dabbled with the idea of live-streaming. After dealing with
+					the DMCA pratfalls of various social media platforms, the DJ community
+					eventually landed en masse on Twitch which was one of the few
+					platforms to be (mostly) free of the IPR hurdles experienced with
+					others.
+					<br />
+					<br />I was no different, and after some time I'd pieced together a
+					fairly respectable setup which made the process interactive and{' '}
+					<ItalicText>a lot </ItalicText>
+					of fun. To make things a bit more "interactive", I decided to create a
+					chat bot script for my channel, having been impressed by the options
+					available but looking for a bit more customization.
+					<br />
+					<br />
+					This script features a number of API integrations within the command's
+					responses, such as the ability to look up weather conditions or return
+					a "dad joke" or famous quote to the chat. Other commands are based on
+					custom responses, such as a "rock paper scissors" game that generates
+					a random selection based on the user's command selection, and a "Magic
+					8 Ball" command that will randomly generate a response to a yes-or-no
+					query.
+					<br />
+					<br />
+					The Node script powering the chat bot is run and hosted via Heroku and
+					can be tested any time by visiting my Twitch channel and entering <StrongText>!commands</StrongText>.
+				</>
+			}
 			preview1={[previewMobile1, previewTablet1, previewDesktop1]}
 			preview2={[previewMobile2, previewTablet2, previewDesktop2]}
 			next='Responsive Elements'
