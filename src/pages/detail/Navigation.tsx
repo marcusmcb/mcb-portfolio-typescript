@@ -19,7 +19,7 @@ const Navigation = ({ next, previous }: NavigationProps): JSX.Element => {
 
 					<div>
 						<h3
-							className='h3'
+							className='project-nav-label'
 							style={{ textAlign: 'start', textTransform: 'capitalize' }}
 						>
 							{previous}
@@ -40,7 +40,7 @@ const Navigation = ({ next, previous }: NavigationProps): JSX.Element => {
 
 					<div>
 						<h3
-							className='h3'
+							className='project-nav-label'
 							style={{ textAlign: 'end', textTransform: 'capitalize' }}
 						>
 							{next}

@@ -11,7 +11,7 @@ const Contact = (): JSX.Element => {
 	return (
 		<main>
 			<GetInTouch />
-			<ContactMe />
+			{/* <ContactMe /> */}
 		</main>
 	)
 }

@@ -13,7 +13,7 @@ const GetInTouch = (): JSX.Element => {
 				<div className={styles.wrapper}>
 					<h2 className={`h2 ${styles.title}`}>Get in Touch</h2>
 					<div className={styles.bodyContainer}>
-						{/* <br/>
+						<br />
 						<p
 							className={
 								isDesktop ? `body-1 ${styles.text}` : `body-2 ${styles.text}`
@@ -24,11 +24,15 @@ const GetInTouch = (): JSX.Element => {
 							<br />
 							<br /> I'm here to help. Feel free to get in touch with any
 							questions or ideas you have that I can assist with.
+							<br />
+							<br />I have prior full-stack experience and familiarity with a
+							number of different tech stacks, with new additions regularly
+							being added. Estimates for project work are available upon request.
 						</p>
-						<br/>
-						<hr/>
-						<br/>
-						<br/>						 */}
+						<br />
+						<hr />
+						<br />
+						<br />
 						<div>
 							<p
 								className={

@@ -1,4 +1,5 @@
 import { SyntheticEvent } from 'react'
+import axios from 'axios'
 import styles from './styles/ContactMe.module.css'
 
 const ContactMe = (): JSX.Element => {
@@ -54,6 +55,16 @@ const ContactMe = (): JSX.Element => {
 
 			const input = document.getElementById('message')
 			input?.classList.toggle('required')
+		}
+		
+		if (name.length && email.length && message.length) {
+			axios.post('/send-email', { name, email, message })
+				.then(res => {
+					console.log(res.data);
+				})
+				.catch(err => {
+					console.error(err);
+				});
 		}
 
 		console.log(name, email, message)
