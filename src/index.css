@@ -1,6 +1,6 @@
 /* Custom Properties */
 :root {
-	--primary-color-1: #5fb4a2;
+	--primary-color-1: #3e75b4;
 	--primary-color-2: #203a4c;
 	--primary-color-3: #33323d;
 
@@ -77,7 +77,7 @@ svg {
 
 /* Utilities */
 .h1 {
-	font-family: 'Ibarra Real Nova';
+	font-family: 'Almarai';
 	font-style: normal;
 	font-weight: 700;
 	font-size: 50px;
@@ -88,7 +88,7 @@ svg {
 }
 
 .h2 {
-	font-family: 'Ibarra Real Nova';
+	font-family: 'Almarai';
 	font-style: normal;
 	font-weight: 700;
 	font-size: 40px;
@@ -100,7 +100,7 @@ svg {
 
 .h3,
 .project-nav-label {
-	font-family: 'Ibarra Real Nova';
+	font-family: 'Almarai';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 32px;

@@ -3,7 +3,6 @@ import axios from 'axios'
 import styles from './styles/ContactMe.module.css'
 
 const ContactMe = (): JSX.Element => {
-  
 	const handleFocus = (e: SyntheticEvent) => {
 		const target = e.target as typeof e.target & {
 			name: string
@@ -56,15 +55,16 @@ const ContactMe = (): JSX.Element => {
 			const input = document.getElementById('message')
 			input?.classList.toggle('required')
 		}
-		
+
 		if (name.length && email.length && message.length) {
-			axios.post('/send-email', { name, email, message })
-				.then(res => {
-					console.log(res.data);
+			axios
+				.post('/send-email', { name, email, message })
+				.then((res) => {
+					console.log(res.data)
 				})
-				.catch(err => {
-					console.error(err);
-				});
+				.catch((err) => {
+					console.error(err)
+				})
 		}
 
 		console.log(name, email, message)
@@ -75,7 +75,6 @@ const ContactMe = (): JSX.Element => {
 			<div className='container'>
 				<div className={styles.wrapper}>
 					<h2 className={`h2 ${styles.title}`}>Contact Me</h2>
-
 					<form action='post' className={styles.form} onSubmit={handleSubmit}>
 						<label htmlFor='name' className={styles.label}>
 							Name

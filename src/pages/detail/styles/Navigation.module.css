@@ -22,7 +22,7 @@
 }
 
 .linkLeft:hover {
-	background-color: hsla(168, 36%, 54%, 0.15);
+	background-color: hsla(210, 49%, 43%, 0.15);
 }
 
 .linkRight {
@@ -40,7 +40,7 @@
 }
 
 .linkRight:hover {
-	background-color: hsla(168, 36%, 54%, 0.15);
+	background-color: hsla(210, 49%, 43%, 0.15);
 }
 
 .leftImage {

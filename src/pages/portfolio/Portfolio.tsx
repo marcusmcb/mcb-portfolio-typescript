@@ -36,12 +36,11 @@ import responsiveTablet from '../../images/portfolio/responsive/responsive_previ
 import responsiveDesktop from '../../images/portfolio/responsive/responsive_preview.png'
 
 export default function Portfolio(): JSX.Element {
-
 	useEffect(() => {
 		document.title = 'MCB Portfolio | Projects'
 		window.scrollTo(0, 0)
 	}, [])
-	
+
 	return (
 		<main className={styles.main}>
 			<Project.Right
