@@ -17,7 +17,7 @@ const Navigation = ({ next, previous }: NavigationProps): JSX.Element => {
 						<img src={leftArrow} alt='' style={{ width: 'fit-content' }} />
 					</div>
 
-					<div>
+					<div className='project-nav-box'>
 						<h3
 							className='project-nav-label'
 							style={{ textAlign: 'start', textTransform: 'capitalize' }}
@@ -38,7 +38,7 @@ const Navigation = ({ next, previous }: NavigationProps): JSX.Element => {
 						<img src={rightArrow} alt='' style={{ width: 'fit-content' }} />
 					</div>
 
-					<div>
+					<div className='project-nav-box'>
 						<h3
 							className='project-nav-label'
 							style={{ textAlign: 'end', textTransform: 'capitalize' }}
