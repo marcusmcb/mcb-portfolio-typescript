@@ -92,7 +92,7 @@ const ProjectDetail = ({
 					{/* right container */}
 					<div className={styles.backgroundContainer}>
 						<h3 className={`h3 ${styles.bTitle}`}>Project Background</h3>
-						<p className={`body-2 ${styles.background}`}>{background}</p>
+						<div className={`body-2 ${styles.background}`}>{background}</div>
 						{/* <h3 className={`h3 ${styles.staticTitle}`}>Previews:</h3>
 
 						<picture>
