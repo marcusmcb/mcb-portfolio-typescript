@@ -70,6 +70,7 @@ const NpChatBot = (): JSX.Element => {
 							in OBS
 						</li>
 					</ul>
+					<br/>
 					<div
 						style={{
 							position: 'relative',
