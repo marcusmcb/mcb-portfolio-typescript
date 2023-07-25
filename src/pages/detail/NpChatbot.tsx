@@ -13,15 +13,23 @@ const NpChatBot = (): JSX.Element => {
 			title='npChatBot'
 			description={
 				<>
-					npChatBot is a Twitch-connected script for DJs that add a number of
+					npChatBot is a Twitch-connected script for DJs that adds a number of
 					interactive commands to the user's channel. These commands enable the
 					streamer's viewers to interact with their Serato play history,
 					allowing them to display the currently playing track, any previously
-					played track, the total tracks played so far, and several others.
+					played track, the total tracks played so far, and several others, all
+					of which update in real-time with each new song the DJ/streamer plays.
 				</>
 			}
 			keywords={['Live Streaming', 'Web Scraping', 'Data Analytics']}
-			technologies={['Node', 'TMI.js', 'Cheerio', 'Twitch', 'Serato', 'OBS']}
+			technologies={[
+				'Node',
+				'Twitch',
+				'Serato',
+				'OBS Studio',
+				'TMI.js',
+				'Cheerio',
+			]}
 			link={['https://github.com/marcusmcb/serato-nowplaying-twitch']}
 			background={
 				<Fragment>
@@ -47,8 +55,8 @@ const NpChatBot = (): JSX.Element => {
 						in real-time.
 					</p>
 					<br />
-					<hr/>
-					<br/>
+					<hr />
+					<br />
 					<p>
 						In the clip below, I trigger the{' '}
 						<span style={{ fontWeight: '600', fontStyle: 'italic' }}>
@@ -70,7 +78,7 @@ const NpChatBot = (): JSX.Element => {
 							in OBS
 						</li>
 					</ul>
-					<br/>
+					<br />
 					<div
 						style={{
 							position: 'relative',
@@ -97,13 +105,13 @@ const NpChatBot = (): JSX.Element => {
 					<br />
 					<p>
 						Additionally, I also trigger commands to display both the current
-						song playing as well as the previous song played, a fun "ICYMI" feature for
-						viewers who may have missed IDing the current song as it was
-						playing.
+						song playing as well as the previous song played, a fun "ICYMI"
+						feature for viewers who may have missed IDing the current song as it
+						was playing.
 					</p>
 					<br />
-					<hr/>
-					<br/>
+					<hr />
+					<br />
 					<p>
 						In the next clip, I trigger the{' '}
 						<span style={{ fontWeight: '600', fontStyle: 'italic' }}>
@@ -157,8 +165,8 @@ const NpChatBot = (): JSX.Element => {
 						interactivity to their live broadcasts.
 					</p>
 					<br />
-					<hr/>
-					<br/>
+					<hr />
+					<br />
 					<p>
 						Presently, the npChatBot suite can be cloned and run locally as a
 						simple Node script, hosted via the cloud (my own bot is currently
