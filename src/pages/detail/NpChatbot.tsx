@@ -170,13 +170,24 @@ const NpChatBot = (): JSX.Element => {
 					<p>
 						Presently, the npChatBot suite can be cloned and run locally as a
 						simple Node script, hosted via the cloud (my own bot is currently
-						running on Heroku), or installed as an Electron app (still in
+						running on Heroku), or installed as an Electron app (in
 						development).
 					</p>
 					<br />
 					<p>
-						Integration for OBS responses can be found in the obs-integration
-						branch, also currently in development.
+						There is a desktop version in development utilizing React,
+						Typescript, and ElectronJS. Once installed, the user will enter and
+						store their credentials (first-time only), set their preferences,
+						and enable/disable the bot once connected. The user can update (or
+						remove) their credentials from the app and update their preferences
+						as well.
+					</p>
+					<br />
+					<p>
+						Automated interval messages and OBS response display are both
+						optional. If enabled, the user can set the frequency of the interval
+						messages (5 minutes by default) and the duration of the OBS
+						response's on-screen display before clearing (5 seconds by default).
 					</p>
 				</Fragment>
 			}
