@@ -24,10 +24,11 @@ const NpChatBot = (): JSX.Element => {
 			keywords={['Live Streaming', 'Web Scraping', 'Data Analytics']}
 			technologies={[
 				'Node',
+				'React',
+				'TypeScript',
 				'Twitch',
 				'Serato',
-				'OBS Studio',
-				'TMI.js',
+				'OBS Studio',				
 				'Cheerio',
 			]}
 			link={['https://github.com/marcusmcb/serato-nowplaying-twitch']}

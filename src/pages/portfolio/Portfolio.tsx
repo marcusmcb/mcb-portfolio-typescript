@@ -71,7 +71,7 @@ export default function Portfolio(): JSX.Element {
 						random selection from the play history and when it was played.
 						<br />
 						<br />
-						Built with Node, TMI.js, Axios/Cheerio, and Electron.
+						Built with Node, TMI.js, Axios/Cheerio, React/TypeScript, and Electron.
 					</>
 				}
 				screenshots={[npchatbotMobile, npchatbotTablet, npchatbotDesktop]}
