@@ -4,7 +4,7 @@ import ProjectDetail from './ProjectDetail'
 
 import heroMobile from '../../images/portfolio/npchatbot/npchatbot_preview.png'
 import heroTablet from '../../images/portfolio/npchatbot/npchatbot_preview.png'
-import heroDesktop from '../../images/portfolio/npchatbot/npchatbot_preview_wide.png'
+import heroDesktop from '../../images/portfolio/npchatbot/npchatbot_banner_full.png'
 
 const NpChatBot = (): JSX.Element => {
 	return (
@@ -28,7 +28,7 @@ const NpChatBot = (): JSX.Element => {
 				'TypeScript',
 				'Twitch',
 				'Serato',
-				'OBS Studio',				
+				'OBS Studio',
 				'Cheerio',
 			]}
 			link={['https://github.com/marcusmcb/serato-nowplaying-twitch']}
@@ -146,6 +146,56 @@ const NpChatBot = (): JSX.Element => {
 						<br />
 						<video
 							src='/video/dyp_command_demo.mp4'
+							style={{
+								position: 'absolute',
+								top: '0',
+								left: '0',
+								width: '100%',
+								height: '100%',
+							}}
+							controls
+						>
+							Your browser does not support the video tag.
+						</video>
+					</div>
+					<br />
+					<br />
+					<p>
+						In this final clip, I show the{' '}
+						<span style={{ fontWeight: '600', fontStyle: 'italic' }}>
+							!doubles{' '}
+						</span>
+						command in action, which determines whether or not the DJ has
+						previously played any "doubles" in this stream.
+					</p>
+					<br />
+					<p>
+						"Doubles" occur when the DJ has a song loaded to both decks at the
+						same time, commonly done when performing scratch routines, beat
+						juggles, and such during a DJ set.
+					</p>
+					<br />
+					<p>
+						{' '}
+						In this clip, I trigger the !doubles command, which returns that
+						there have been none at that point. After a quick cut and juggle
+						between decks, I trigger the command again, which now returns how
+						many times "doubles" were detected in the playlist data, and the
+						most recent song the DJ performed a routine with.
+					</p>
+					<br />
+
+					<div
+						style={{
+							position: 'relative',
+							overflow: 'hidden',
+							paddingTop:
+								'56.25%' /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */,
+						}}
+					>
+						<br />
+						<video
+							src='/video/doubles_command_video.mp4'
 							style={{
 								position: 'absolute',
 								top: '0',
