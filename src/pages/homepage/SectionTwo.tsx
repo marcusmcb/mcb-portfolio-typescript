@@ -36,15 +36,15 @@ const SectionTwo = (): JSX.Element => {
 						problem-solver from Southern California.
 						<br />
 						<br />
-						I'm a big fan of parsing data out of the ether and presenting it in
-						system-efficient and user-engaging ways. Experienced in working
+						I'm a big fan of parsing useful data out of the ether and presenting it in
+						resource-efficient and user-engaging ways. Experienced in working
 						with agile teams (on-site & remote) and committed to finding durable
-						solutions to fit the needs of the challenge.
+						solutions to fit the needs of each challenge.
 						<br />
 						<br />
-						Specialties include API development, integration/sequence testing,
-						live-streaming tools, and interactive data analysis. Proficient in
-						Javascript, Python, Ruby, cloud data, and code management.
+						Specialties include API & e-commerce development, integration/E2E testing,
+						live-streaming tools, data management, and interactive data analysis. Proficient in
+						Javascript, Python, Ruby, cloud data, code management.
 						<br />
 						<br />
 						You can view samples of my work and more information about each
