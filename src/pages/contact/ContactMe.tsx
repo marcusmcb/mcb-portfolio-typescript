@@ -57,14 +57,17 @@ const ContactMe = (): JSX.Element => {
 		}
 
 		if (name.length && email.length && message.length) {
-			axios
-				.post('/send-email', { name, email, message })
-				.then((res) => {
-					console.log(res.data)
-				})
-				.catch((err) => {
-					console.error(err)
-				})
+			// axios
+			// 	.post('/send-email', { name, email, message })
+			// 	.then((res) => {
+			// 		console.log(res.data)
+			// 	})
+			// 	.catch((err) => {
+			// 		console.error(err)
+			// 	})
+			console.log(name)
+			console.log(email)
+			console.log(message)
 		}
 
 		console.log(name, email, message)
@@ -140,3 +143,6 @@ const ContactMe = (): JSX.Element => {
 }
 
 export default ContactMe
+
+// add free tier Postmark account to handle
+// email sends from message panel
