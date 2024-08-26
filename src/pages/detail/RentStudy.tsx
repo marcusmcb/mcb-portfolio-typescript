@@ -45,7 +45,7 @@ const RentStudy = (): JSX.Element => {
 			}
 			preview1={[]}
 			preview2={[]}
-			next='CrateStats'
+			next='TwitchSafePlaylists'
 			previous='Responsive Elements'
 		/>
 	)

@@ -3,6 +3,10 @@ import { useEffect } from 'react'
 import SectionThree from '../homepage/SectionThree'
 import Project from './Project'
 
+import twitchsafeplaylistsMobile from '../../images/portfolio/twitchsafeplaylists/twitchsafeplaylists_preview.png'	
+import twitchsafeplaylistsTablet from '../../images/portfolio/twitchsafeplaylists/twitchsafeplaylists_preview.png'	
+import twitchsafeplaylistsDesktop from '../../images/portfolio/twitchsafeplaylists/twitchsafeplaylists_preview.png'	
+
 import cratestatsMobile from '../../images/portfolio/cratestats/cratestats_preview.png'
 import cratestatsTablet from '../../images/portfolio/cratestats/cratestats_preview.png'
 import cratestatsDesktop from '../../images/portfolio/cratestats/cratestats_preview.png'
@@ -43,6 +47,19 @@ export default function Portfolio(): JSX.Element {
 
 	return (
 		<main className={styles.main}>
+			<Project.Left
+				title='Twitch Safe Playlists'
+				description={
+					<>
+						This is a simple utility app that I've built for live-streamers that
+						takes in an existing Spotify playlist link and returns a new one
+						free of any music from the restricted artist list featured in
+						Twitch's new DJ program.<br/><br/>Built with React, AWS Lambda, and the Spotify API.
+					</>
+				}
+				screenshots={[twitchsafeplaylistsMobile, twitchsafeplaylistsTablet, twitchsafeplaylistsDesktop]}	
+				param='TwitchSafePlaylists'
+			/>
 			<Project.Right
 				title='CrateStats'
 				description={
@@ -71,7 +88,8 @@ export default function Portfolio(): JSX.Element {
 						random selection from the play history and when it was played.
 						<br />
 						<br />
-						Built with Node, TMI.js, Axios/Cheerio, React/TypeScript, and Electron.
+						Built with Node, TMI.js, Axios/Cheerio, React/TypeScript, and
+						Electron.
 					</>
 				}
 				screenshots={[npchatbotMobile, npchatbotTablet, npchatbotDesktop]}

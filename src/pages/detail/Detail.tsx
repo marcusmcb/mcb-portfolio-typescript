@@ -3,6 +3,7 @@ import styles from "./styles/Detail.module.css";
 import { useEffect } from "react";
 import { useParams } from "react-router";
 import SectionThree from "../homepage/SectionThree";
+import TwitchSafePlaylists from "./TwitchSafePlaylists";
 import CrateStats from "./CrateStats";
 import RemixArkive from "./RemixArikive";
 import Hue from "./Hue";
@@ -21,6 +22,7 @@ const Detail = (): JSX.Element => {
 
   return (
     <main className={styles.main}>
+      {id === "TwitchSafePlaylists" && <TwitchSafePlaylists />}
       {id === "CrateStats" && <CrateStats />}
       {id === "npChatBot" && <NpChatBot />}
       {id === 'RemixArkive' && <RemixArkive/>}

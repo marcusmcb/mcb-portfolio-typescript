@@ -27,7 +27,8 @@ const GetInTouch = (): JSX.Element => {
 							<br />
 							<br />I have prior full-stack experience and familiarity with a
 							number of different tech stacks, with new additions regularly
-							being added. Estimates for project work are available upon request.
+							being added. Estimates for project work are available upon
+							request.
 						</p>
 						<br />
 						<hr />
