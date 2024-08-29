@@ -31,7 +31,7 @@ const NpChatBot = (): JSX.Element => {
 				'OBS Studio',
 				'Cheerio',
 			]}
-			link={['https://github.com/marcusmcb/serato-nowplaying-twitch']}
+			link={['https://github.com/marcusmcb/npchatbot']}
 			background={
 				<Fragment>
 					<p>
