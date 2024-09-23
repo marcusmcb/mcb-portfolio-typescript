@@ -73,7 +73,7 @@ const NpChatBot = (): JSX.Element => {
 							the average song length
 						</li>
 						<li>
-							returns the response as both chat text and (opitonally) on-screen
+							returns the response as both chat text and (optionally) on-screen
 							in OBS
 						</li>
 					</ul>
