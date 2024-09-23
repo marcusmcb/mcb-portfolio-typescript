@@ -13,12 +13,9 @@ const NpChatBot = (): JSX.Element => {
 			title='npChatBot'
 			description={
 				<>
-					npChatBot is a Twitch-connected script for DJs that adds a number of
-					interactive commands to the user's channel. These commands enable the
-					streamer's viewers to interact with their Serato play history,
-					allowing them to display the currently playing track, any previously
-					played track, the total tracks played so far, and several others, all
-					of which update in real-time with each new song the DJ/streamer plays.
+					npChatBot is a desktop chatbot app for DJs using Serato DJ Pro that
+					adds a unique level of music discovery to their live-streamed DJ sets
+					on Twitch via a set of interactive, real-time chat commands.
 				</>
 			}
 			keywords={['Live Streaming', 'Web Scraping', 'Data Analytics']}
@@ -32,6 +29,7 @@ const NpChatBot = (): JSX.Element => {
 				'Cheerio',
 			]}
 			link={['https://github.com/marcusmcb/npchatbot']}
+			external_link={['https://www.npchatbot.com']}
 			background={
 				<Fragment>
 					<p>
@@ -61,7 +59,7 @@ const NpChatBot = (): JSX.Element => {
 					<p>
 						In the clip below, I trigger the{' '}
 						<span style={{ fontWeight: '600', fontStyle: 'italic' }}>
-							!stats
+							!np stats
 						</span>{' '}
 						command in my Twitch channel which, under the hood, does the
 						following:
@@ -116,11 +114,11 @@ const NpChatBot = (): JSX.Element => {
 					<p>
 						In the next clip, I trigger the{' '}
 						<span style={{ fontWeight: '600', fontStyle: 'italic' }}>
-							!shortestsong
+							!np shortest
 						</span>{' '}
 						and{' '}
 						<span style={{ fontWeight: '600', fontStyle: 'italic' }}>
-							!longestsong
+							!np longest
 						</span>{' '}
 						commands in my Twitch channel which, using the scraped playlist
 						data, respectively returns the shortest and longest songs played in
@@ -130,8 +128,8 @@ const NpChatBot = (): JSX.Element => {
 					<p>
 						The final command used in the clip,{' '}
 						<span style={{ fontWeight: '600', fontStyle: 'italic' }}>!dyp</span>{' '}
-						(short for "did you play"), will query the scraped data to see if
-						the artist or song entered after the command has been played
+						(short for "did you play...?"), will query the scraped data to see
+						if the artist or song entered after the command has been played
 						previously in my set.
 					</p>
 					<br />
@@ -163,7 +161,7 @@ const NpChatBot = (): JSX.Element => {
 					<p>
 						In this final clip, I show the{' '}
 						<span style={{ fontWeight: '600', fontStyle: 'italic' }}>
-							!doubles{' '}
+							!np doubles{' '}
 						</span>
 						command in action, which determines whether or not the DJ has
 						previously played any "doubles" in this stream.
@@ -212,33 +210,29 @@ const NpChatBot = (): JSX.Element => {
 					<p>
 						All of which provide a layer of real-time analysis for streamers
 						playing music in their live broadcasts, aiding in the music
-						discovery process for their viewers and adding a unique level of
-						interactivity to their live broadcasts.
+						discovery process for their viewers, and adding a unique level of
+						interactivity to their chat experience.
 					</p>
 					<br />
 					<hr />
 					<br />
 					<p>
-						Presently, the npChatBot suite can be cloned and run locally as a
-						simple Node script, hosted via the cloud (my own bot is currently
-						running on Heroku), or installed as an Electron app (in
-						development).
+						Presently, npChatbot is available as a desktop app for Windows with
+						a Mac installer currently in development.
 					</p>
 					<br />
 					<p>
-						There is a desktop version in development utilizing React,
-						Typescript, and ElectronJS. Once installed, the user will enter and
-						store their credentials (first-time only), set their preferences,
-						and enable/disable the bot once connected. The user can update (or
-						remove) their credentials from the app and update their preferences
-						as well.
+						The full website for npChatbot has a complete breakdown of the user
+						options, preferences, and chatbot commands available to the user,
+						along with additional demo clips showing the software in action on
+						Twitch.s
 					</p>
 					<br />
 					<p>
-						Automated interval messages and OBS response display are both
-						optional. If enabled, the user can set the frequency of the interval
-						messages (5 minutes by default) and the duration of the OBS
-						response's on-screen display before clearing (5 seconds by default).
+						npChatbot is written in TypeScript (client React UI) and JavaScript
+						(chatbot ES modules and logic) and packaged with ElectronJS.  Full
+						functionality has been thoroughly tested on Windows 10/11 utilizing
+						OBS 29.0 and up.
 					</p>
 				</Fragment>
 			}

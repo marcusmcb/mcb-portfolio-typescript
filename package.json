@@ -30,7 +30,7 @@
   "scripts": {
     "start": "react-scripts start",
     "start:server": "node server.js",
-    "build": "react-scripts build",
+    "build": "react-scripts build && node ./utils/fix-paths.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
