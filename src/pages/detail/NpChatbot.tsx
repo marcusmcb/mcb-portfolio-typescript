@@ -225,14 +225,14 @@ const NpChatBot = (): JSX.Element => {
 						The full website for npChatbot has a complete breakdown of the user
 						options, preferences, and chatbot commands available to the user,
 						along with additional demo clips showing the software in action on
-						Twitch.s
+						Twitch.
 					</p>
 					<br />
 					<p>
 						npChatbot is written in TypeScript (client React UI) and JavaScript
-						(chatbot ES modules and logic) and packaged with ElectronJS.  Full
+						(chatbot ES modules and logic) and packaged with ElectronJS. Full
 						functionality has been thoroughly tested on Windows 10/11 utilizing
-						OBS 29.0 and up.
+						Serato DJ Pro 3.0 and OBS 29.0 and up.
 					</p>
 				</Fragment>
 			}
