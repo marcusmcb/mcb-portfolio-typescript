@@ -58,7 +58,7 @@ const GetInTouch = (): JSX.Element => {
 								style={{ opacity: '0.8', fontWeight: '600' }}
 							>
 								<a
-									href='https://docs.google.com/document/d/11S9WkHfks7a6gXiNPZVTDJgkRnEDjx7PHnsJDLBmaFI/edit?usp=sharing'
+									href='https://docs.google.com/document/d/1hJs1B-a1cM_mSYE67-z0BDlYHUrkdKfZwQLvPPwn8fU/edit?usp=sharing'
 									rel='noreferrer'
 									target='_blank'
 									className='resume-link'
@@ -73,7 +73,7 @@ const GetInTouch = (): JSX.Element => {
 								style={{ opacity: '0.8', fontWeight: '600' }}
 							>
 								<a
-									href='https://drive.google.com/file/d/1iWHf12cxRQMjfKECjqNBATN2kEO9UCwF/view?usp=sharing'
+									href='https://drive.google.com/file/d/1Wwl9XIivp1VCH3-TkYp_mKT7Bod4-xAb/view?usp=sharing'
 									rel='noreferrer'
 									target='_blank'
 									className='resume-link'
