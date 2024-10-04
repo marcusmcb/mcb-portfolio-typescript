@@ -43,11 +43,11 @@ const SectionTwo = (): JSX.Element => {
 						<br />
 						<br />
 						Specialties include API & e-commerce development, integration/E2E testing,
-						live-streaming tools, data management, and interactive data analysis. Proficient in
-						Javascript, Python, Ruby, cloud data, code management.
+						live-streaming tools, database management, and interactive data analysis. Proficient in
+						Javascript, Python, Ruby, cloud infrastructure, code management, and general devOps work.
 						<br />
 						<br />
-						You can view samples of my work and more information about each
+						You can view samples of my work along with detailed information about each
 						project in my portfolio section. Please feel free to reach out with
 						any questions, feedback, or inquiries.  Thanks!
 					</p>
