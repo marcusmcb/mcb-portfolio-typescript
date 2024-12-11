@@ -73,7 +73,7 @@ const GetInTouch = (): JSX.Element => {
 								style={{ opacity: '0.8', fontWeight: '600' }}
 							>
 								<a
-									href='https://drive.google.com/file/d/1ZfveBhE5cfBEyDtd_qZsP-EIKgcf_nbB/view?usp=sharing'
+									href='https://drive.google.com/file/d/16oLgBBp-CBIWn4vCQkUYtYMzuzSSZ8Mo/view?usp=sharing'
 									rel='noreferrer'
 									target='_blank'
 									className='resume-link'
