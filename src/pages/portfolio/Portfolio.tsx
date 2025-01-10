@@ -58,7 +58,7 @@ export default function Portfolio(): JSX.Element {
 					</>
 				}
 				screenshots={[twitchsafeplaylistsMobile, twitchsafeplaylistsTablet, twitchsafeplaylistsDesktop]}	
-				param='TwitchSafePlaylists'
+				param='Twitch Safe Playlists'
 			/>
 			<Project.Right
 				title='CrateStats'

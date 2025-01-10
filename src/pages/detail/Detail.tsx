@@ -22,7 +22,7 @@ const Detail = (): JSX.Element => {
 
   return (
     <main className={styles.main}>
-      {id === "TwitchSafePlaylists" && <TwitchSafePlaylists />}
+      {id === "Twitch Safe Playlists" && <TwitchSafePlaylists />}
       {id === "CrateStats" && <CrateStats />}
       {id === "npChatBot" && <NpChatBot />}
       {id === 'RemixArkive' && <RemixArkive/>}
