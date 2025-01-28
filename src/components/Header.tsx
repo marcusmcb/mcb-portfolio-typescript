@@ -2,7 +2,7 @@ import styles from './styles/HeaderClasses.module.css'
 import logo from '../images/mcb-logo.jpg'
 import { Link } from 'react-router-dom'
 import github from '../images/icons/github.svg'
-import twitter from '../images/icons/twitter.svg'
+import { FaTwitch } from 'react-icons/fa'
 import linkedin from '../images/icons/linkedin.svg'
 
 const Header = (): JSX.Element => {
@@ -44,13 +44,13 @@ const Header = (): JSX.Element => {
 					</a>
 
 					<a
-						href='https://www.twitter.com/djmarcusmcb'
+						href='https://www.twitch.com/djmarcusmcb'
 						target='_blank'
 						rel='noreferrer'
 						className={styles.iconButton}
-						aria-label='twitter'
+						aria-label='twitch'
 					>
-						<img src={twitter} alt='twitter' className={styles.icon} />
+						<FaTwitch size={24}/>
 					</a>
 				</div>
 			</div>
