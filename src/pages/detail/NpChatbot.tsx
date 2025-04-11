@@ -182,7 +182,6 @@ const NpChatBot = (): JSX.Element => {
 						most recent song the DJ performed a routine with.
 					</p>
 					<br />
-
 					<div
 						style={{
 							position: 'relative',
@@ -213,6 +212,50 @@ const NpChatBot = (): JSX.Element => {
 						discovery process for their viewers, and adding a unique level of
 						interactivity to their chat experience.
 					</p>
+					<br />
+					<hr />
+					<br />
+					<p>
+						npChatbot also has the ability to create sharable Spotify playlists
+						from the songs you select during your live-streamed DJ set.
+					</p>
+					<br />
+					<div
+						style={{
+							position: 'relative',
+							overflow: 'hidden',
+							paddingTop:
+								'56.25%' /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */,
+						}}
+					>
+						<br />
+						<video
+							src='/video/npchatbot-spotify-demo.mp4'
+							style={{
+								position: 'absolute',
+								top: '0',
+								left: '0',
+								width: '100%',
+								height: '100%',
+							}}
+							controls
+						>
+							Your browser does not support the video tag.
+						</video>
+					</div>
+					<br />
+					<p>
+						After linking npChatbot to your Spotify account, the user can simply
+						enable the feature and save their preferences. Thereafter, 
+						each time they connect npChatbot to Twitch, a new Spotify playlist
+						is created and then updated with each song the DJ played during the
+						stream. This playlist is easily sharable with your viewers in the
+						chat via the{' '}
+						<span style={{ fontWeight: '600', fontStyle: 'italic' }}>
+							!np playlist{' '}
+						</span>{' '}
+						command which returns a link to the playlist in the chat.
+					</p>					
 					<br />
 					<hr />
 					<br />
