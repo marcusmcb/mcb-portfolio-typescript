@@ -15,18 +15,20 @@ const NpChatBot = (): JSX.Element => {
 				<>
 					npChatBot is a desktop chatbot app for DJs using Serato DJ Pro that
 					adds a unique level of music discovery to their live-streamed DJ sets
-					on Twitch via a set of interactive, real-time chat commands.
+					on Twitch via a set of interactive, real-time chat commands and
+					playlist-sharing features.
 				</>
 			}
 			keywords={['Live Streaming', 'Web Scraping', 'Data Analytics']}
 			technologies={[
+				'Electron',
 				'Node',
 				'React',
 				'TypeScript',
 				'Twitch',
 				'Serato',
+				'Spotify',
 				'OBS Studio',
-				'Cheerio',
 			]}
 			link={['https://github.com/marcusmcb/npchatbot']}
 			external_link={['https://www.npchatbot.com']}
@@ -246,16 +248,16 @@ const NpChatBot = (): JSX.Element => {
 					<br />
 					<p>
 						After linking npChatbot to your Spotify account, the user can simply
-						enable the feature and save their preferences. Thereafter, 
-						each time they connect npChatbot to Twitch, a new Spotify playlist
-						is created and then updated with each song the DJ played during the
-						stream. This playlist is easily sharable with your viewers in the
-						chat via the{' '}
+						enable the feature and save their preferences. Thereafter, each time
+						they connect npChatbot to Twitch, a new Spotify playlist is created
+						and then updated with each song the DJ played during the stream.
+						This playlist is easily sharable with your viewers in the chat via
+						the{' '}
 						<span style={{ fontWeight: '600', fontStyle: 'italic' }}>
 							!np playlist{' '}
 						</span>{' '}
 						command which returns a link to the playlist in the chat.
-					</p>					
+					</p>
 					<br />
 					<hr />
 					<br />
