@@ -32,6 +32,7 @@ const NpChatBot = (): JSX.Element => {
 			]}
 			link={['https://github.com/marcusmcb/npchatbot']}
 			external_link={['https://www.npchatbot.com']}
+			youtube_link={['https://www.youtube.com/@npchatbot']}
 			background={
 				<Fragment>
 					<p>
@@ -44,16 +45,26 @@ const NpChatBot = (): JSX.Element => {
 					<p>
 						For DJs live-streaming on interactive platforms like Twitch, the
 						"now playing" chat command (or variations of it) is a fairly common
-						one with several bot integrations readily available and easily
-						installed.
+						one with several options readily available and easily integrated
+						into their streams.
 					</p>
 					<br />
 					<p>
-						Where npChatBot differs is in its ability to go beyond just the
-						currently playing track. It adds a level of interactivity to a
+						Where npChatBot differs is in its ability to go beyond just the song
+						"now playing".
+					</p>
+					<br />
+					<p>
+						Viewers can query the streamer's current play history, look up any
+						number of "stats" for the current DJ set, and even add the songs
+						playing to their own personal playlists with the included Spotify
+						integration.
+					</p>
+					<br />
+					<p>
+						npChatbot adds a new level of interactive music discovery to a
 						live-streamer's chat and gives DJs streaming on the platform the
-						ability to let their viewers take a deep dive into their playlists
-						in real-time.
+						ability to let their viewers take a deep dive into their playlists.
 					</p>
 					<br />
 					<hr />
@@ -262,8 +273,8 @@ const NpChatBot = (): JSX.Element => {
 					<hr />
 					<br />
 					<p>
-						Presently, npChatbot is available as a desktop app for Windows with
-						a Mac installer currently in development.
+						Presently, npChatbot is available as a desktop app for both Mac and
+						PC.
 					</p>
 					<br />
 					<p>
@@ -274,10 +285,22 @@ const NpChatBot = (): JSX.Element => {
 					</p>
 					<br />
 					<p>
+						Visit the npChatbot YouTube channel{' '}
+						<a
+							style={{ fontWeight: 'bold' }}
+							href='https://www.youtube.com/@npchatbot'
+						>
+							here
+						</a>
+						.
+					</p>
+					<br />
+					<p>
 						npChatbot is written in TypeScript (client React UI) and JavaScript
-						(chatbot ES modules and logic) and packaged with ElectronJS. Full
-						functionality has been thoroughly tested on Windows 10/11 utilizing
-						Serato DJ Pro 3.0 and OBS 29.0 and up.
+						(chatbot ES modules and logic), built with Electron and packaged
+						with Electron Forge. Full functionality has been thoroughly tested
+						on Windows (10/11) and Mac (Sequoia) utilizing Serato DJ Pro 3.0 and
+						OBS 29.0 and up.
 					</p>
 				</Fragment>
 			}

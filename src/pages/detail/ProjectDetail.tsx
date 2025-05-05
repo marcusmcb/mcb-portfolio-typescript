@@ -16,6 +16,7 @@ interface ProjectDetailProps {
 	next: string
 	previous: string
 	external_link?: string[]
+	youtube_link?: string[]
 }
 
 const ProjectDetail = ({
@@ -31,6 +32,7 @@ const ProjectDetail = ({
 	next,
 	previous,
 	external_link,
+	youtube_link,
 }: ProjectDetailProps): JSX.Element => {
 	useEffect(() => {
 		window.scrollTo(0, 0)
@@ -87,6 +89,13 @@ const ProjectDetail = ({
 							<></>
 						)}
 						<ExternalButton text='browse code' href={link[0]} />
+						{youtube_link ? (
+							<div style={{ marginTop: '15px' }}>
+								<ExternalButton text='youtube channel' href={youtube_link[0]} />
+							</div>
+						) : (
+							<></>
+						)}
 					</div>
 
 					{/* right container */}
