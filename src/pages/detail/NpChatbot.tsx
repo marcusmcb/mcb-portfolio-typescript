@@ -13,7 +13,7 @@ const NpChatBot = (): JSX.Element => {
 			title='npChatBot'
 			description={
 				<>
-					npChatBot is a desktop chatbot app for DJs using Serato DJ Pro that
+					npChatBot is a desktop application for DJs using Serato DJ Pro that
 					adds a unique level of music discovery to their live-streamed DJ sets
 					on Twitch via a set of interactive, real-time chat commands and
 					playlist-sharing features.
@@ -24,11 +24,7 @@ const NpChatBot = (): JSX.Element => {
 				'Electron',
 				'Node',
 				'React',
-				'TypeScript',
-				'Twitch',
-				'Serato',
-				'Spotify',
-				'OBS Studio',
+				'TypeScript',				
 			]}
 			link={['https://github.com/marcusmcb/npchatbot']}
 			external_link={['https://www.npchatbot.com']}
