@@ -3,9 +3,9 @@ import { useEffect } from 'react'
 import SectionThree from '../homepage/SectionThree'
 import Project from './Project'
 
-import twitchsafeplaylistsMobile from '../../images/portfolio/twitchsafeplaylists/twitchsafeplaylists_preview.png'	
-import twitchsafeplaylistsTablet from '../../images/portfolio/twitchsafeplaylists/twitchsafeplaylists_preview.png'	
-import twitchsafeplaylistsDesktop from '../../images/portfolio/twitchsafeplaylists/twitchsafeplaylists_preview.png'	
+import twitchsafeplaylistsMobile from '../../images/portfolio/twitchsafeplaylists/twitchsafeplaylists_preview.png'
+import twitchsafeplaylistsTablet from '../../images/portfolio/twitchsafeplaylists/twitchsafeplaylists_preview.png'
+import twitchsafeplaylistsDesktop from '../../images/portfolio/twitchsafeplaylists/twitchsafeplaylists_preview.png'
 
 import cratestatsMobile from '../../images/portfolio/cratestats/cratestats_preview.png'
 import cratestatsTablet from '../../images/portfolio/cratestats/cratestats_preview.png'
@@ -54,10 +54,17 @@ export default function Portfolio(): JSX.Element {
 						This is a simple utility app that I've built for live-streamers that
 						takes in an existing Spotify playlist link and returns a new one
 						free of any music from the restricted artist list featured in
-						Twitch's new DJ program.<br/><br/>Built with React, AWS Lambda, and the Spotify API.
+						Twitch's new DJ program.
+						<br />
+						<br />
+						Built with React, AWS Lambda, and the Spotify API.
 					</>
 				}
-				screenshots={[twitchsafeplaylistsMobile, twitchsafeplaylistsTablet, twitchsafeplaylistsDesktop]}	
+				screenshots={[
+					twitchsafeplaylistsMobile,
+					twitchsafeplaylistsTablet,
+					twitchsafeplaylistsDesktop,
+				]}
 				param='Twitch Safe Playlists'
 			/>
 			<Project.Right
@@ -80,16 +87,17 @@ export default function Portfolio(): JSX.Element {
 				title='npChatBot'
 				description={
 					<>
-						This chat-bot adds a set of command features to your Twitch streams
-						that allow viewers to interact with your Serato live playlist (via
-						web scrape). Features within the bot allow viewers to display the
-						current track playing, any previous track played, the total number
-						of tracks played so far, along with a "vibe check" which returns a
-						random selection from the play history and when it was played.
+						This desktop app for Twitch adds an interactive set of music
+						discovery commands and features that allow a streamer's viewers to
+						interact with a DJ's play history in real time. The features
+						included allow viewers to look up the current song playing, any
+						previous song played, the "stats" for the DJ's current set, and the
+						option to add the songs played to their own personal playlists on
+						Spotify.
 						<br />
 						<br />
-						Built with Node, TMI.js, Axios/Cheerio, React/TypeScript, and
-						Electron.
+						Built with Electron, Node, React/TypeScript, Cheerio, and the
+						Twitch/Spotify APIs.
 					</>
 				}
 				screenshots={[npchatbotMobile, npchatbotTablet, npchatbotDesktop]}
