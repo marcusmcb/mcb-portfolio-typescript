@@ -25,7 +25,7 @@ const Header = (): JSX.Element => {
 				</nav>
 				<div className={styles.iconContainer}>
 					<a
-						href='https://www.linkedin.com/in/marcusmcbride-developer/'
+						href='https://www.linkedin.com/in/marcusmcbride'
 						target='_blank'
 						rel='noreferrer'
 						className={styles.iconButton}
